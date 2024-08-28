@@ -7814,7 +7814,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/xxe/SimpleXXE.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xxe/SimpleXXE.java"
                 },
                 "region": {
                   "startLine": 74,

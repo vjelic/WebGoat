@@ -2702,7 +2702,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/challenges/challenge1/Assignment1.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge1/Assignment1.java"
                 },
                 "region": {
                   "startLine": 53,

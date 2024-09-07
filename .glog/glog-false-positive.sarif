@@ -180,538 +180,6 @@
               }
             },
             {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "PATH_TRAVERSAL_IN",
-              "shortDescription": {
-                "text": "Potential Path Traversal (file read)."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "22",
-                    "guid": "19cf96fc-1234-5a3d-8e5d-21b225b7d3e8",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "PATH_TRAVERSAL_IN",
-              "shortDescription": {
-                "text": "Potential Path Traversal (file read)."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "22",
-                    "guid": "19cf96fc-1234-5a3d-8e5d-21b225b7d3e8",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "PATH_TRAVERSAL_IN",
-              "shortDescription": {
-                "text": "Potential Path Traversal (file read)."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "22",
-                    "guid": "19cf96fc-1234-5a3d-8e5d-21b225b7d3e8",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE",
-              "shortDescription": {
-                "text": "Information Exposure Through An Error Message."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "209",
-                    "guid": "f4809885-c9d6-5931-8bb1-50534e74f6cc",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "UNSAFE_HASH_EQUALS",
-              "shortDescription": {
-                "text": "Unsafe hash equals."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#UNSAFE_HASH_EQUALS",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "203",
-                    "guid": "87991d23-2fc3-5120-b88b-2a9757717e43",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "UNSAFE_HASH_EQUALS",
-              "shortDescription": {
-                "text": "Unsafe hash equals."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#UNSAFE_HASH_EQUALS",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "203",
-                    "guid": "87991d23-2fc3-5120-b88b-2a9757717e43",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE",
-              "shortDescription": {
-                "text": "Information Exposure Through An Error Message."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "209",
-                    "guid": "f4809885-c9d6-5931-8bb1-50534e74f6cc",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "PATH_TRAVERSAL_IN",
-              "shortDescription": {
-                "text": "Potential Path Traversal (file read)."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "22",
-                    "guid": "19cf96fc-1234-5a3d-8e5d-21b225b7d3e8",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "PATH_TRAVERSAL_IN",
-              "shortDescription": {
-                "text": "Potential Path Traversal (file read)."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "22",
-                    "guid": "19cf96fc-1234-5a3d-8e5d-21b225b7d3e8",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "PATH_TRAVERSAL_IN",
-              "shortDescription": {
-                "text": "Potential Path Traversal (file read)."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "22",
-                    "guid": "19cf96fc-1234-5a3d-8e5d-21b225b7d3e8",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
               "id": "CRLF_INJECTION_LOGS",
               "shortDescription": {
                 "text": "Potential CRLF Injection for logs."
@@ -1616,174 +1084,6 @@
                   "target": {
                     "id": "89",
                     "guid": "ef952f10-a202-504c-8649-9ffcb2291d69",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
                     "toolComponent": {
                       "name": "CWE",
                       "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
@@ -3245,62 +2545,6 @@
               }
             },
             {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "HARD_CODE_PASSWORD",
-              "shortDescription": {
-                "text": "Hard coded password."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "259",
-                    "guid": "50b06d54-751a-5af0-9a8c-5ba16677987d",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
               "id": "IMPROPER_UNICODE",
               "shortDescription": {
                 "text": "Improper handling of Unicode transformations."
@@ -3391,62 +2635,6 @@
               },
               "messageStrings": {},
               "helpUri": "https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT",
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "CRLF_INJECTION_LOGS",
-              "shortDescription": {
-                "text": "Potential CRLF Injection for logs."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "117",
-                    "guid": "e4360770-eb15-55cf-8880-7051868a1961",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "CRLF_INJECTION_LOGS",
-              "shortDescription": {
-                "text": "Potential CRLF Injection for logs."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "117",
-                    "guid": "e4360770-eb15-55cf-8880-7051868a1961",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
               "properties": {
                 "tags": [
                   "SECURITY"
@@ -5170,90 +4358,6 @@
               }
             },
             {
-              "id": "PATH_TRAVERSAL_IN",
-              "shortDescription": {
-                "text": "Potential Path Traversal (file read)."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "22",
-                    "guid": "19cf96fc-1234-5a3d-8e5d-21b225b7d3e8",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "PATH_TRAVERSAL_IN",
-              "shortDescription": {
-                "text": "Potential Path Traversal (file read)."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "22",
-                    "guid": "19cf96fc-1234-5a3d-8e5d-21b225b7d3e8",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
-              "id": "PATH_TRAVERSAL_IN",
-              "shortDescription": {
-                "text": "Potential Path Traversal (file read)."
-              },
-              "messageStrings": {},
-              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "22",
-                    "guid": "19cf96fc-1234-5a3d-8e5d-21b225b7d3e8",
-                    "toolComponent": {
-                      "name": "CWE",
-                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ],
-              "properties": {
-                "tags": [
-                  "SECURITY"
-                ]
-              }
-            },
-            {
               "id": "XXE_XMLSTREAMREADER",
               "shortDescription": {
                 "text": "XML parsing vulnerable to XXE (XMLStreamReader)."
@@ -5927,575 +5031,6 @@
           ]
         },
         {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/CSRFIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 212
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "checkAssignment8(String)",
-                  "fullyQualifiedName": "org.owasp.webgoat.CSRFIntegrationTest.checkAssignment8(String)",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Potential Path Traversal (file read)",
-            "id": "default",
-            "arguments": [
-              "java/nio/file/Paths.get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/CSRFIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 95
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "uploadTrickHtml(String, String)",
-                  "fullyQualifiedName": "org.owasp.webgoat.CSRFIntegrationTest.uploadTrickHtml(String, String)",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Potential Path Traversal (file read)",
-            "id": "default",
-            "arguments": [
-              "java/nio/file/Paths.get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/CSRFIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 96
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "uploadTrickHtml(String, String)",
-                  "fullyQualifiedName": "org.owasp.webgoat.CSRFIntegrationTest.uploadTrickHtml(String, String)",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Potential Path Traversal (file read)",
-            "id": "default",
-            "arguments": [
-              "java/nio/file/Paths.get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/CSRFIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 97
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "uploadTrickHtml(String, String)",
-                  "fullyQualifiedName": "org.owasp.webgoat.CSRFIntegrationTest.uploadTrickHtml(String, String)",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/ChallengeIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 78
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "testChallenge5()",
-                  "fullyQualifiedName": "org.owasp.webgoat.ChallengeIntegrationTest.testChallenge5()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/CryptoIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 74
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "checkAssignment3()",
-                  "fullyQualifiedName": "org.owasp.webgoat.CryptoIntegrationTest.checkAssignment3()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE",
-          "ruleIndex": 5,
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Information Exposure Through An Error Message",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/CryptoIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 39
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "runTests()",
-                  "fullyQualifiedName": "org.owasp.webgoat.CryptoIntegrationTest.runTests()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "UNSAFE_HASH_EQUALS",
-          "ruleIndex": 6,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Unsafe hash equals",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/CryptoIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 103
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "checkAssignment4()",
-                  "fullyQualifiedName": "org.owasp.webgoat.CryptoIntegrationTest.checkAssignment4()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "UNSAFE_HASH_EQUALS",
-          "ruleIndex": 6,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Unsafe hash equals",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/CryptoIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 106
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "checkAssignment4()",
-                  "fullyQualifiedName": "org.owasp.webgoat.CryptoIntegrationTest.checkAssignment4()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/GeneralLessonIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 109
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "insecureLogin()",
-                  "fullyQualifiedName": "org.owasp.webgoat.GeneralLessonIntegrationTest.insecureLogin()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/GeneralLessonIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 119
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "securePasswords()",
-                  "fullyQualifiedName": "org.owasp.webgoat.GeneralLessonIntegrationTest.securePasswords()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/IDORIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 40
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "loginIDOR()",
-                  "fullyQualifiedName": "org.owasp.webgoat.IDORIntegrationTest.loginIDOR()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE",
-          "ruleIndex": 5,
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Information Exposure Through An Error Message",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/LabelAndHintIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 171
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "getProperties(String)",
-                  "fullyQualifiedName": "org.owasp.webgoat.LabelAndHintIntegrationTest.getProperties(String)",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Potential Path Traversal (file read)",
-            "id": "default",
-            "arguments": [
-              "java/io/FileInputStream.<init>(Ljava/lang/String;)V"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/LabelAndHintIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 164
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "getProperties(String)",
-                  "fullyQualifiedName": "org.owasp.webgoat.LabelAndHintIntegrationTest.getProperties(String)",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Potential Path Traversal (file read)",
-            "id": "default",
-            "arguments": [
-              "java/io/File.<init>(Ljava/lang/String;)V"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/PathTraversalIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 123
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "assignment5()",
-                  "fullyQualifiedName": "org.owasp.webgoat.PathTraversalIT.assignment5()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/SqlInjectionAdvancedIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 16
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "runTests()",
-                  "fullyQualifiedName": "org.owasp.webgoat.SqlInjectionAdvancedIntegrationTest.runTests()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/SqlInjectionAdvancedIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 18
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "runTests()",
-                  "fullyQualifiedName": "org.owasp.webgoat.SqlInjectionAdvancedIntegrationTest.runTests()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/SqlInjectionAdvancedIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 23
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "runTests()",
-                  "fullyQualifiedName": "org.owasp.webgoat.SqlInjectionAdvancedIntegrationTest.runTests()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Potential Path Traversal (file read)",
-            "id": "default",
-            "arguments": [
-              "java/nio/file/Paths.get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/XXEIntegrationTest.java"
-                },
-                "region": {
-                  "startLine": 65
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "getSecret()",
-                  "fullyQualifiedName": "org.owasp.webgoat.XXEIntegrationTest.getSecret()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "ruleId": "CRLF_INJECTION_LOGS",
           "ruleIndex": 1,
           "kind": "fail",
@@ -6657,7 +5192,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -6686,7 +5221,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -6718,7 +5253,7 @@
         },
         {
           "ruleId": "SPRING_FILE_DISCLOSURE",
-          "ruleIndex": 9,
+          "ruleIndex": 5,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -6811,7 +5346,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -6843,7 +5378,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_PROTECTION_DISABLED",
-          "ruleIndex": 10,
+          "ruleIndex": 7,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -6872,7 +5407,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -6905,7 +5440,7 @@
         },
         {
           "ruleId": "SPRING_FILE_DISCLOSURE",
-          "ruleIndex": 9,
+          "ruleIndex": 5,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -6934,7 +5469,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -6964,7 +5499,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -6994,7 +5529,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7059,7 +5594,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -7091,7 +5626,7 @@
         },
         {
           "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
-          "ruleIndex": 12,
+          "ruleIndex": 9,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7123,7 +5658,7 @@
         },
         {
           "ruleId": "FORMAT_STRING_MANIPULATION",
-          "ruleIndex": 13,
+          "ruleIndex": 10,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7152,7 +5687,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7185,7 +5720,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7217,7 +5752,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7250,7 +5785,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -7280,7 +5815,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -7310,7 +5845,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7343,7 +5878,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7376,7 +5911,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7409,7 +5944,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -7439,7 +5974,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7472,7 +6007,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -7502,7 +6037,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -7532,7 +6067,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7565,7 +6100,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -7595,7 +6130,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7660,7 +6195,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -7690,7 +6225,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7723,7 +6258,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -7753,7 +6288,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -7786,7 +6321,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_SPRING_JDBC",
-          "ruleIndex": 14,
+          "ruleIndex": 11,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -7817,182 +6352,8 @@
           ]
         },
         {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/users/UserValidatorTest.java"
-                },
-                "region": {
-                  "startLine": 25
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "passwordsShouldMatch()",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.users.UserValidatorTest.passwordsShouldMatch()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/users/UserValidatorTest.java"
-                },
-                "region": {
-                  "startLine": 26
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "passwordsShouldMatch()",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.users.UserValidatorTest.passwordsShouldMatch()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/users/UserValidatorTest.java"
-                },
-                "region": {
-                  "startLine": 37
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "shouldGiveErrorWhenPasswordsDoNotMatch()",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.users.UserValidatorTest.shouldGiveErrorWhenPasswordsDoNotMatch()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/users/UserValidatorTest.java"
-                },
-                "region": {
-                  "startLine": 38
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "shouldGiveErrorWhenPasswordsDoNotMatch()",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.users.UserValidatorTest.shouldGiveErrorWhenPasswordsDoNotMatch()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/users/UserValidatorTest.java"
-                },
-                "region": {
-                  "startLine": 50
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "shouldGiveErrorWhenUserAlreadyExists()",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.users.UserValidatorTest.shouldGiveErrorWhenUserAlreadyExists()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/users/UserValidatorTest.java"
-                },
-                "region": {
-                  "startLine": 51
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "shouldGiveErrorWhenUserAlreadyExists()",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.users.UserValidatorTest.shouldGiveErrorWhenUserAlreadyExists()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8024,7 +6385,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8054,7 +6415,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8087,7 +6448,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8119,7 +6480,7 @@
         },
         {
           "ruleId": "SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING",
-          "ruleIndex": 16,
+          "ruleIndex": 13,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8151,7 +6512,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8183,7 +6544,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8215,7 +6576,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8244,7 +6605,7 @@
         },
         {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8276,7 +6637,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8309,7 +6670,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8341,7 +6702,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8373,7 +6734,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8437,7 +6798,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8469,7 +6830,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8501,7 +6862,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8534,7 +6895,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8599,7 +6960,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8628,7 +6989,7 @@
         },
         {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8660,7 +7021,7 @@
         },
         {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8692,7 +7053,7 @@
         },
         {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8724,7 +7085,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8754,7 +7115,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8784,7 +7145,7 @@
         },
         {
           "ruleId": "UNSAFE_HASH_EQUALS",
-          "ruleIndex": 6,
+          "ruleIndex": 15,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8813,7 +7174,7 @@
         },
         {
           "ruleId": "UNSAFE_HASH_EQUALS",
-          "ruleIndex": 6,
+          "ruleIndex": 15,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8842,7 +7203,7 @@
         },
         {
           "ruleId": "WEAK_MESSAGE_DIGEST_MD5",
-          "ruleIndex": 18,
+          "ruleIndex": 16,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8874,7 +7235,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8935,7 +7296,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -8964,7 +7325,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -8994,7 +7355,7 @@
         },
         {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9026,7 +7387,7 @@
         },
         {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9058,7 +7419,7 @@
         },
         {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9090,7 +7451,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9123,7 +7484,7 @@
         },
         {
           "ruleId": "OBJECT_DESERIALIZATION",
-          "ruleIndex": 19,
+          "ruleIndex": 17,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9155,7 +7516,7 @@
         },
         {
           "ruleId": "OBJECT_DESERIALIZATION",
-          "ruleIndex": 19,
+          "ruleIndex": 17,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9187,7 +7548,7 @@
         },
         {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9219,7 +7580,7 @@
         },
         {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9251,7 +7612,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9280,7 +7641,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9309,7 +7670,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9338,7 +7699,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9368,7 +7729,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9397,7 +7758,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9426,7 +7787,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9455,7 +7816,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9484,7 +7845,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9513,7 +7874,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9542,7 +7903,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9571,7 +7932,7 @@
         },
         {
           "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
+          "ruleIndex": 18,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9600,7 +7961,7 @@
         },
         {
           "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
+          "ruleIndex": 18,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9661,7 +8022,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9694,7 +8055,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9726,7 +8087,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9758,7 +8119,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9786,66 +8147,8 @@
           ]
         },
         {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/jwt/JWTRefreshEndpointTest.java"
-                },
-                "region": {
-                  "startLine": 199
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "newTokenShouldWorkForJerry()",
-                  "fullyQualifiedName": "org.owasp.webgoat.lessons.jwt.JWTRefreshEndpointTest.newTokenShouldWorkForJerry()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Hard coded password",
-            "id": "default"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/jwt/JWTRefreshEndpointTest.java"
-                },
-                "region": {
-                  "startLine": 228
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "unknownRefreshTokenShouldGiveUnauthorized()",
-                  "fullyQualifiedName": "org.owasp.webgoat.lessons.jwt.JWTRefreshEndpointTest.unknownRefreshTokenShouldGiveUnauthorized()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9874,7 +8177,7 @@
         },
         {
           "ruleId": "PREDICTABLE_RANDOM",
-          "ruleIndex": 15,
+          "ruleIndex": 12,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9906,7 +8209,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -9935,7 +8238,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -9966,72 +8269,8 @@
           ]
         },
         {
-          "ruleId": "CRLF_INJECTION_LOGS",
-          "ruleIndex": 1,
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Potential CRLF Injection for logs",
-            "id": "default",
-            "arguments": [
-              "org/slf4j/Logger.debug(Ljava/lang/String;)V"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/jwt/TokenTest.java"
-                },
-                "region": {
-                  "startLine": 54
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "test()",
-                  "fullyQualifiedName": "org.owasp.webgoat.lessons.jwt.TokenTest.test()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "CRLF_INJECTION_LOGS",
-          "ruleIndex": 1,
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Potential CRLF Injection for logs",
-            "id": "default",
-            "arguments": [
-              "org/slf4j/Logger.debug(Ljava/lang/String;)V"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/jwt/TokenTest.java"
-                },
-                "region": {
-                  "startLine": 80
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "testRefresh()",
-                  "fullyQualifiedName": "org.owasp.webgoat.lessons.jwt.TokenTest.testRefresh()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10063,7 +8302,7 @@
         },
         {
           "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
-          "ruleIndex": 12,
+          "ruleIndex": 9,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10127,7 +8366,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -10160,7 +8399,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -10193,7 +8432,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -10225,7 +8464,7 @@
         },
         {
           "ruleId": "UNSAFE_HASH_EQUALS",
-          "ruleIndex": 6,
+          "ruleIndex": 15,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10254,7 +8493,7 @@
         },
         {
           "ruleId": "UNSAFE_HASH_EQUALS",
-          "ruleIndex": 6,
+          "ruleIndex": 15,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10283,7 +8522,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -10312,7 +8551,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -10341,7 +8580,7 @@
         },
         {
           "ruleId": "HARD_CODE_PASSWORD",
-          "ruleIndex": 3,
+          "ruleIndex": 18,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10370,7 +8609,7 @@
         },
         {
           "ruleId": "SPRING_FILE_DISCLOSURE",
-          "ruleIndex": 9,
+          "ruleIndex": 5,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10399,7 +8638,7 @@
         },
         {
           "ruleId": "SPRING_FILE_DISCLOSURE",
-          "ruleIndex": 9,
+          "ruleIndex": 5,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10428,7 +8667,7 @@
         },
         {
           "ruleId": "SPRING_FILE_DISCLOSURE",
-          "ruleIndex": 9,
+          "ruleIndex": 5,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10457,7 +8696,7 @@
         },
         {
           "ruleId": "SPRING_FILE_DISCLOSURE",
-          "ruleIndex": 9,
+          "ruleIndex": 5,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10486,7 +8725,7 @@
         },
         {
           "ruleId": "SPRING_FILE_DISCLOSURE",
-          "ruleIndex": 9,
+          "ruleIndex": 5,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10515,7 +8754,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -10547,7 +8786,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10579,7 +8818,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10611,7 +8850,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10643,7 +8882,7 @@
         },
         {
           "ruleId": "WEAK_FILENAMEUTILS",
-          "ruleIndex": 20,
+          "ruleIndex": 19,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -10675,7 +8914,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -10771,7 +9010,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -10800,7 +9039,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10832,7 +9071,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10864,7 +9103,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10896,7 +9135,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10928,7 +9167,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -10960,7 +9199,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -10992,7 +9231,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11024,7 +9263,7 @@
         },
         {
           "ruleId": "POTENTIAL_XML_INJECTION",
-          "ruleIndex": 21,
+          "ruleIndex": 20,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11057,7 +9296,7 @@
         },
         {
           "ruleId": "POTENTIAL_XML_INJECTION",
-          "ruleIndex": 21,
+          "ruleIndex": 20,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11090,7 +9329,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11119,7 +9358,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11148,7 +9387,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11180,7 +9419,7 @@
         },
         {
           "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
-          "ruleIndex": 12,
+          "ruleIndex": 9,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11212,7 +9451,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11244,7 +9483,7 @@
         },
         {
           "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
-          "ruleIndex": 12,
+          "ruleIndex": 9,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11276,7 +9515,7 @@
         },
         {
           "ruleId": "INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE",
-          "ruleIndex": 5,
+          "ruleIndex": 21,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11305,7 +9544,7 @@
         },
         {
           "ruleId": "INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE",
-          "ruleIndex": 5,
+          "ruleIndex": 21,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11334,7 +9573,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11366,7 +9605,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11398,7 +9637,7 @@
         },
         {
           "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
-          "ruleIndex": 12,
+          "ruleIndex": 9,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11430,7 +9669,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11462,7 +9701,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11494,7 +9733,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11526,7 +9765,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11558,7 +9797,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11590,7 +9829,7 @@
         },
         {
           "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
-          "ruleIndex": 12,
+          "ruleIndex": 9,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11622,7 +9861,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11654,7 +9893,7 @@
         },
         {
           "ruleId": "SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING",
-          "ruleIndex": 16,
+          "ruleIndex": 13,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11686,7 +9925,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11718,7 +9957,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11750,7 +9989,7 @@
         },
         {
           "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
-          "ruleIndex": 12,
+          "ruleIndex": 9,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11782,7 +10021,7 @@
         },
         {
           "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
-          "ruleIndex": 12,
+          "ruleIndex": 9,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11814,7 +10053,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11846,7 +10085,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11878,7 +10117,7 @@
         },
         {
           "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
-          "ruleIndex": 12,
+          "ruleIndex": 9,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11910,7 +10149,7 @@
         },
         {
           "ruleId": "SQL_INJECTION_JDBC",
-          "ruleIndex": 11,
+          "ruleIndex": 8,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -11942,7 +10181,7 @@
         },
         {
           "ruleId": "SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING",
-          "ruleIndex": 16,
+          "ruleIndex": 13,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -11974,7 +10213,7 @@
         },
         {
           "ruleId": "INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE",
-          "ruleIndex": 5,
+          "ruleIndex": 21,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -12003,7 +10242,7 @@
         },
         {
           "ruleId": "INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE",
-          "ruleIndex": 5,
+          "ruleIndex": 21,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -12061,7 +10300,7 @@
         },
         {
           "ruleId": "IMPROPER_UNICODE",
-          "ruleIndex": 17,
+          "ruleIndex": 14,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -12090,7 +10329,7 @@
         },
         {
           "ruleId": "POTENTIAL_XML_INJECTION",
-          "ruleIndex": 21,
+          "ruleIndex": 20,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12123,7 +10362,7 @@
         },
         {
           "ruleId": "POTENTIAL_XML_INJECTION",
-          "ruleIndex": 21,
+          "ruleIndex": 20,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12156,7 +10395,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -12188,7 +10427,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -12253,7 +10492,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12277,102 +10516,6 @@
                 {
                   "name": "createSecretFileWithRandomContents(WebGoatUser)",
                   "fullyQualifiedName": "org.owasp.webgoat.lessons.xxe.BlindSendFileAssignment.createSecretFileWithRandomContents(WebGoatUser)",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Potential Path Traversal (file read)",
-            "id": "default",
-            "arguments": [
-              "java/io/File.<init>(Ljava/lang/String;Ljava/lang/String;)V"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/xxe/BlindSendFileAssignmentTest.java"
-                },
-                "region": {
-                  "startLine": 87
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "simpleXXEShouldNotWork()",
-                  "fullyQualifiedName": "org.owasp.webgoat.lessons.xxe.BlindSendFileAssignmentTest.simpleXXEShouldNotWork()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Potential Path Traversal (file read)",
-            "id": "default",
-            "arguments": [
-              "java/io/File.<init>(Ljava/lang/String;Ljava/lang/String;)V"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/xxe/BlindSendFileAssignmentTest.java"
-                },
-                "region": {
-                  "startLine": 102
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "solve()",
-                  "fullyQualifiedName": "org.owasp.webgoat.lessons.xxe.BlindSendFileAssignmentTest.solve()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Potential Path Traversal (file read)",
-            "id": "default",
-            "arguments": [
-              "java/io/File.<init>(Ljava/lang/String;Ljava/lang/String;)V"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/xxe/BlindSendFileAssignmentTest.java"
-                },
-                "region": {
-                  "startLine": 135
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "solveOnlyParamReferenceEntityInExternalDTD()",
-                  "fullyQualifiedName": "org.owasp.webgoat.lessons.xxe.BlindSendFileAssignmentTest.solveOnlyParamReferenceEntityInExternalDTD()",
                   "kind": "function"
                 }
               ]
@@ -12410,7 +10553,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -12474,7 +10617,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12506,7 +10649,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12535,7 +10678,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -12631,7 +10774,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12663,7 +10806,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12695,7 +10838,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12727,7 +10870,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12759,7 +10902,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12788,7 +10931,7 @@
         },
         {
           "ruleId": "PATH_TRAVERSAL_IN",
-          "ruleIndex": 4,
+          "ruleIndex": 6,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12820,7 +10963,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_PROTECTION_DISABLED",
-          "ruleIndex": 10,
+          "ruleIndex": 7,
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -12849,7 +10992,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -12881,7 +11024,7 @@
         },
         {
           "ruleId": "SPRING_ENDPOINT",
-          "ruleIndex": 8,
+          "ruleIndex": 4,
           "kind": "fail",
           "level": "note",
           "message": {
@@ -12946,7 +11089,7 @@
         },
         {
           "ruleId": "SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING",
-          "ruleIndex": 7,
+          "ruleIndex": 3,
           "kind": "fail",
           "level": "warning",
           "message": {

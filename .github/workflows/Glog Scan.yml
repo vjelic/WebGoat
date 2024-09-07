@@ -34,3 +34,4 @@ jobs:
         run: |
           rm $GITHUB_WORKSPACE/.glog/*
           /home/vjelic/Documents/Projects/glog-tools/glog.sh scan --path $GITHUB_WORKSPACE --lang java
+          /usr/lib/jvm/java-21-openjdk-amd64/bin/java -jar /home/vjelic/Documents/Projects/glog-resolver/target/glog-resolver-0.9-jar-with-dependencies.jar -t "$GITHUB_WORKSPACE/.glog" "$GITHUB_WORKSPACE"

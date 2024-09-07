@@ -5543,7 +5543,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "../src/main/java/org/owasp/webgoat/webwolf/requests/Requests.java"
+                  "uri": "src/main/java/org/owasp/webgoat/webwolf/requests/Requests.java"
                 },
                 "region": {
                   "startLine": 65,

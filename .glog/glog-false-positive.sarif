@@ -35,7 +35,8 @@
               ],
               "properties": {
                 "tags": [
-                  "SECURITY"
+                  "SECURITY",
+                  "CRLF_INJECTION_LOGS"
                 ]
               }
             },
@@ -48,7 +49,8 @@
               "helpUri": "https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT",
               "properties": {
                 "tags": [
-                  "SECURITY"
+                  "SECURITY",
+                  "SPRING_ENDPOINT"
                 ]
               }
             },
@@ -76,7 +78,8 @@
               ],
               "properties": {
                 "tags": [
-                  "SECURITY"
+                  "SECURITY",
+                  "SQL_INJECTION_JDBC"
                 ]
               }
             },
@@ -104,7 +107,8 @@
               ],
               "properties": {
                 "tags": [
-                  "SECURITY"
+                  "SECURITY",
+                  "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE"
                 ]
               }
             },
@@ -132,7 +136,8 @@
               ],
               "properties": {
                 "tags": [
-                  "SECURITY"
+                  "SECURITY",
+                  "SQL_INJECTION_SPRING_JDBC"
                 ]
               }
             },
@@ -160,7 +165,8 @@
               ],
               "properties": {
                 "tags": [
-                  "SECURITY"
+                  "SECURITY",
+                  "SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING"
                 ]
               }
             }
@@ -190,7 +196,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/dummy/insecure/framework/VulnerableTaskHolder.java"
+                  "uri": "src/main/java/org/dummy/insecure/framework/VulnerableTaskHolder.java"
                 },
                 "region": {
                   "startLine": 69
@@ -221,7 +227,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/dummy/insecure/framework/VulnerableTaskHolder.java"
+                  "uri": "src/main/java/org/dummy/insecure/framework/VulnerableTaskHolder.java"
                 },
                 "region": {
                   "startLine": 49
@@ -252,7 +258,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/dummy/insecure/framework/VulnerableTaskHolder.java"
+                  "uri": "src/main/java/org/dummy/insecure/framework/VulnerableTaskHolder.java"
                 },
                 "region": {
                   "startLine": 56
@@ -283,7 +289,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/dummy/insecure/framework/VulnerableTaskHolder.java"
+                  "uri": "src/main/java/org/dummy/insecure/framework/VulnerableTaskHolder.java"
                 },
                 "region": {
                   "startLine": 63
@@ -314,7 +320,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
                 },
                 "region": {
                   "startLine": 131
@@ -345,7 +351,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
                 },
                 "region": {
                   "startLine": 90
@@ -376,7 +382,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
                 },
                 "region": {
                   "startLine": 159
@@ -407,7 +413,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
                 },
                 "region": {
                   "startLine": 164
@@ -438,7 +444,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
                 },
                 "region": {
                   "startLine": 110
@@ -469,7 +475,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/HammerHead.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/HammerHead.java"
                 },
                 "region": {
                   "startLine": 54
@@ -500,7 +506,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/LessonTemplateResolver.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/LessonTemplateResolver.java"
                 },
                 "region": {
                   "startLine": 84
@@ -531,7 +537,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/MvcConfiguration.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/MvcConfiguration.java"
                 },
                 "region": {
                   "startLine": 152
@@ -562,7 +568,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/WebWolfRedirect.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/WebWolfRedirect.java"
                 },
                 "region": {
                   "startLine": 17,
@@ -594,7 +600,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/controller/StartLesson.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/controller/StartLesson.java"
                 },
                 "region": {
                   "startLine": 62,
@@ -626,7 +632,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/lessons/CourseConfiguration.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/lessons/CourseConfiguration.java"
                 },
                 "region": {
                   "startLine": 68
@@ -657,7 +663,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/lessons/LessonConnectionInvocationHandler.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/lessons/LessonConnectionInvocationHandler.java"
                 },
                 "region": {
                   "startLine": 27
@@ -688,7 +694,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/lessons/LessonConnectionInvocationHandler.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/lessons/LessonConnectionInvocationHandler.java"
                 },
                 "region": {
                   "startLine": 27
@@ -719,7 +725,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/report/ReportCardController.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/report/ReportCardController.java"
                 },
                 "region": {
                   "startLine": 65,
@@ -751,7 +757,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/EnvironmentService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/EnvironmentService.java"
                 },
                 "region": {
                   "startLine": 16
@@ -782,7 +788,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/HintService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/HintService.java"
                 },
                 "region": {
                   "startLine": 43,
@@ -814,7 +820,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/LabelDebugService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LabelDebugService.java"
                 },
                 "region": {
                   "startLine": 66,
@@ -846,7 +852,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/LabelDebugService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LabelDebugService.java"
                 },
                 "region": {
                   "startLine": 83,
@@ -878,7 +884,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/LabelService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LabelService.java"
                 },
                 "region": {
                   "startLine": 62,
@@ -910,7 +916,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/LessonInfoService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LessonInfoService.java"
                 },
                 "region": {
                   "startLine": 30,
@@ -942,7 +948,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/LessonProgressService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LessonProgressService.java"
                 },
                 "region": {
                   "startLine": 35,
@@ -974,7 +980,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/LessonTitleService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LessonTitleService.java"
                 },
                 "region": {
                   "startLine": 31,
@@ -1006,7 +1012,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/RestartLessonService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/RestartLessonService.java"
                 },
                 "region": {
                   "startLine": 56
@@ -1037,7 +1043,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/RestartLessonService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/RestartLessonService.java"
                 },
                 "region": {
                   "startLine": 55,
@@ -1069,7 +1075,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/service/SessionService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/SessionService.java"
                 },
                 "region": {
                   "startLine": 27,
@@ -1101,7 +1107,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/container/users/UserService.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/users/UserService.java"
                 },
                 "region": {
                   "startLine": 52
@@ -1132,7 +1138,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/challenges/challenge1/ImageServlet.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge1/ImageServlet.java"
                 },
                 "region": {
                   "startLine": 25,
@@ -1164,7 +1170,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/challenges/challenge5/Assignment5.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge5/Assignment5.java"
                 },
                 "region": {
                   "startLine": 59
@@ -1195,7 +1201,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/challenges/challenge5/Assignment5.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge5/Assignment5.java"
                 },
                 "region": {
                   "startLine": 59
@@ -1226,7 +1232,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/challenges/challenge7/Assignment7.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge7/Assignment7.java"
                 },
                 "region": {
                   "startLine": 101
@@ -1257,7 +1263,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/challenges/challenge8/Assignment8.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge8/Assignment8.java"
                 },
                 "region": {
                   "startLine": 63,
@@ -1289,7 +1295,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/challenges/challenge8/Assignment8.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge8/Assignment8.java"
                 },
                 "region": {
                   "startLine": 56
@@ -1320,7 +1326,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/challenges/challenge8/Assignment8.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge8/Assignment8.java"
                 },
                 "region": {
                   "startLine": 74
@@ -1351,7 +1357,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/cia/CIAQuiz.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/cia/CIAQuiz.java"
                 },
                 "region": {
                   "startLine": 51
@@ -1382,7 +1388,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/clientsidefiltering/Salaries.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/clientsidefiltering/Salaries.java"
                 },
                 "region": {
                   "startLine": 108
@@ -1413,7 +1419,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/clientsidefiltering/Salaries.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/clientsidefiltering/Salaries.java"
                 },
                 "region": {
                   "startLine": 76,
@@ -1445,7 +1451,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/clientsidefiltering/ShopEndpoint.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/clientsidefiltering/ShopEndpoint.java"
                 },
                 "region": {
                   "startLine": 81,
@@ -1477,7 +1483,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/cryptography/CryptoUtil.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/cryptography/CryptoUtil.java"
                 },
                 "region": {
                   "startLine": 70
@@ -1508,7 +1514,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/cryptography/SigningAssignment.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/cryptography/SigningAssignment.java"
                 },
                 "region": {
                   "startLine": 81
@@ -1539,7 +1545,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/csrf/ForgedReviews.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/csrf/ForgedReviews.java"
                 },
                 "region": {
                   "startLine": 77,
@@ -1571,7 +1577,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/idor/IDORViewOwnProfile.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/idor/IDORViewOwnProfile.java"
                 },
                 "region": {
                   "startLine": 63
@@ -1602,7 +1608,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/idor/IDORViewOwnProfile.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/idor/IDORViewOwnProfile.java"
                 },
                 "region": {
                   "startLine": 46,
@@ -1634,7 +1640,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/insecurelogin/InsecureLoginTask.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/insecurelogin/InsecureLoginTask.java"
                 },
                 "region": {
                   "startLine": 46
@@ -1665,7 +1671,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/jwt/JWTQuiz.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/jwt/JWTQuiz.java"
                 },
                 "region": {
                   "startLine": 46
@@ -1696,7 +1702,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/jwt/JWTSecretKeyEndpoint.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/jwt/JWTSecretKeyEndpoint.java"
                 },
                 "region": {
                   "startLine": 61
@@ -1727,7 +1733,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/jwt/claimmisuse/JWTHeaderKIDEndpoint.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/jwt/claimmisuse/JWTHeaderKIDEndpoint.java"
                 },
                 "region": {
                   "startLine": 91
@@ -1758,7 +1764,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/jwt/claimmisuse/JWTHeaderKIDEndpoint.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/jwt/claimmisuse/JWTHeaderKIDEndpoint.java"
                 },
                 "region": {
                   "startLine": 91
@@ -1789,7 +1795,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/logging/LogBleedingTask.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/logging/LogBleedingTask.java"
                 },
                 "region": {
                   "startLine": 48
@@ -1820,7 +1826,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/missingac/MissingFunctionACUsers.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/missingac/MissingFunctionACUsers.java"
                 },
                 "region": {
                   "startLine": 55,
@@ -1852,7 +1858,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/missingac/MissingFunctionACUsers.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/missingac/MissingFunctionACUsers.java"
                 },
                 "region": {
                   "startLine": 85,
@@ -1884,7 +1890,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/missingac/MissingFunctionACUsers.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/missingac/MissingFunctionACUsers.java"
                 },
                 "region": {
                   "startLine": 74
@@ -1915,7 +1921,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/pathtraversal/ProfileUpload.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUpload.java"
                 },
                 "region": {
                   "startLine": 45
@@ -1946,7 +1952,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/pathtraversal/ProfileUploadFix.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadFix.java"
                 },
                 "region": {
                   "startLine": 45
@@ -1977,7 +1983,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java"
                 },
                 "region": {
                   "startLine": 59
@@ -2008,7 +2014,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java"
                 },
                 "region": {
                   "startLine": 68
@@ -2039,7 +2045,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/pathtraversal/ProfileZipSlip.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileZipSlip.java"
                 },
                 "region": {
                   "startLine": 94
@@ -2070,7 +2076,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/pathtraversal/ProfileZipSlip.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileZipSlip.java"
                 },
                 "region": {
                   "startLine": 100
@@ -2101,7 +2107,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionChallenge.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionChallenge.java"
                 },
                 "region": {
                   "startLine": 69
@@ -2132,7 +2138,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionChallenge.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionChallenge.java"
                 },
                 "region": {
                   "startLine": 69
@@ -2163,7 +2169,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6a.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6a.java"
                 },
                 "region": {
                   "startLine": 74
@@ -2194,7 +2200,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6a.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6a.java"
                 },
                 "region": {
                   "startLine": 74
@@ -2225,7 +2231,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionQuiz.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionQuiz.java"
                 },
                 "region": {
                   "startLine": 85
@@ -2256,7 +2262,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson10.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson10.java"
                 },
                 "region": {
                   "startLine": 71
@@ -2287,7 +2293,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson10.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson10.java"
                 },
                 "region": {
                   "startLine": 71
@@ -2318,7 +2324,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson2.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson2.java"
                 },
                 "region": {
                   "startLine": 65
@@ -2349,7 +2355,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson3.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson3.java"
                 },
                 "region": {
                   "startLine": 63
@@ -2380,7 +2386,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson4.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson4.java"
                 },
                 "region": {
                   "startLine": 62
@@ -2411,7 +2417,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5.java"
                 },
                 "region": {
                   "startLine": 80
@@ -2442,7 +2448,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5a.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5a.java"
                 },
                 "region": {
                   "startLine": 67
@@ -2473,7 +2479,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5a.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5a.java"
                 },
                 "region": {
                   "startLine": 67
@@ -2504,7 +2510,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5b.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5b.java"
                 },
                 "region": {
                   "startLine": 65
@@ -2535,7 +2541,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5b.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5b.java"
                 },
                 "region": {
                   "startLine": 65
@@ -2566,7 +2572,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
                 },
                 "region": {
                   "startLine": 158
@@ -2597,7 +2603,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
                 },
                 "region": {
                   "startLine": 78
@@ -2628,7 +2634,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
                 },
                 "region": {
                   "startLine": 78
@@ -2659,7 +2665,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
                 },
                 "region": {
                   "startLine": 158
@@ -2690,7 +2696,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java"
                 },
                 "region": {
                   "startLine": 111
@@ -2721,7 +2727,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java"
                 },
                 "region": {
                   "startLine": 81
@@ -2752,7 +2758,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java"
                 },
                 "region": {
                   "startLine": 81
@@ -2783,7 +2789,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/mitigation/Servers.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/Servers.java"
                 },
                 "region": {
                   "startLine": 72
@@ -2814,7 +2820,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/sqlinjection/mitigation/Servers.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/Servers.java"
                 },
                 "region": {
                   "startLine": 72
@@ -2845,7 +2851,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/xss/CrossSiteScriptingQuiz.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xss/CrossSiteScriptingQuiz.java"
                 },
                 "region": {
                   "startLine": 80
@@ -2876,7 +2882,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/xss/stored/StoredXssComments.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xss/stored/StoredXssComments.java"
                 },
                 "region": {
                   "startLine": 81,
@@ -2908,7 +2914,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/xxe/BlindSendFileAssignment.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xxe/BlindSendFileAssignment.java"
                 },
                 "region": {
                   "startLine": 81
@@ -2939,7 +2945,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/xxe/CommentsEndpoint.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xxe/CommentsEndpoint.java"
                 },
                 "region": {
                   "startLine": 47
@@ -2970,7 +2976,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/xxe/Ping.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xxe/Ping.java"
                 },
                 "region": {
                   "startLine": 50
@@ -3001,7 +3007,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/lessons/xxe/SimpleXXE.java"
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xxe/SimpleXXE.java"
                 },
                 "region": {
                   "startLine": 105
@@ -3032,7 +3038,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/server/StartWebGoat.java"
+                  "uri": "src/main/java/org/owasp/webgoat/server/StartWebGoat.java"
                 },
                 "region": {
                   "startLine": 56
@@ -3063,7 +3069,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/webwolf/FileServer.java"
+                  "uri": "src/main/java/org/owasp/webgoat/webwolf/FileServer.java"
                 },
                 "region": {
                   "startLine": 97
@@ -3094,7 +3100,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/webwolf/jwt/JWTController.java"
+                  "uri": "src/main/java/org/owasp/webgoat/webwolf/jwt/JWTController.java"
                 },
                 "region": {
                   "startLine": 18
@@ -3125,7 +3131,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/webwolf/mailbox/MailboxController.java"
+                  "uri": "src/main/java/org/owasp/webgoat/webwolf/mailbox/MailboxController.java"
                 },
                 "region": {
                   "startLine": 67,
@@ -3157,7 +3163,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "org/owasp/webgoat/webwolf/requests/LandingPage.java"
+                  "uri": "src/main/java/org/owasp/webgoat/webwolf/requests/LandingPage.java"
                 },
                 "region": {
                   "startLine": 48

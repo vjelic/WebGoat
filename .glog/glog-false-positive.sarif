@@ -4,8 +4,8 @@
     {
       "tool": {
         "driver": {
-          "name": "GLOG",
-          "organization": "GLOG",
+          "name": "Glog.AI",
+          "organization": "Glog.AI",
           "fullName": "Glog, Making software more secure",
           "version": "1.0.0",
           "semanticVersion": "1.0.0",
@@ -18,6 +18,10 @@
               },
               "messageStrings": {},
               "helpUri": "https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS",
+              "help": {
+                "text": "",
+                "markdown": "Visit [https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS](https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS) for more details."
+              },
               "relationships": [
                 {
                   "target": {
@@ -47,6 +51,10 @@
               },
               "messageStrings": {},
               "helpUri": "https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT",
+              "help": {
+                "text": "",
+                "markdown": "Visit [https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT) for more details."
+              },
               "properties": {
                 "tags": [
                   "SECURITY",
@@ -61,6 +69,10 @@
               },
               "messageStrings": {},
               "helpUri": "https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDBC",
+              "help": {
+                "text": "",
+                "markdown": "Visit [https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDBC](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDBC) for more details."
+              },
               "relationships": [
                 {
                   "target": {
@@ -90,6 +102,10 @@
               },
               "messageStrings": {},
               "helpUri": "https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+              "help": {
+                "text": "",
+                "markdown": "Visit [https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE](https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE) for more details."
+              },
               "relationships": [
                 {
                   "target": {
@@ -119,6 +135,10 @@
               },
               "messageStrings": {},
               "helpUri": "https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_SPRING_JDBC",
+              "help": {
+                "text": "",
+                "markdown": "Visit [https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_SPRING_JDBC](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_SPRING_JDBC) for more details."
+              },
               "relationships": [
                 {
                   "target": {
@@ -148,6 +168,10 @@
               },
               "messageStrings": {},
               "helpUri": "https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING",
+              "help": {
+                "text": "",
+                "markdown": "Visit [https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING](https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING) for more details."
+              },
               "relationships": [
                 {
                   "target": {

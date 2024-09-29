@@ -1,0 +1,3307 @@
+{
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Glog.AI",
+          "organization": "Glog.AI",
+          "fullName": "Glog, Making software more secure",
+          "version": "1.0.0",
+          "semanticVersion": "1.0.0",
+          "informationUri": "https://www.glog.ai",
+          "rules": [
+            {
+              "id": "CRLF_INJECTION_LOGS",
+              "shortDescription": {
+                "text": "Potential CRLF Injection for logs."
+              },
+              "messageStrings": {},
+              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS](https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS)."
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "117",
+                    "guid": "e4360770-eb15-55cf-8880-7051868a1961",
+                    "toolComponent": {
+                      "name": "CWE",
+                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ],
+              "properties": {
+                "tags": [
+                  "SECURITY",
+                  "CRLF_INJECTION_LOGS"
+                ]
+              }
+            },
+            {
+              "id": "SPRING_ENDPOINT",
+              "shortDescription": {
+                "text": "Found Spring endpoint."
+              },
+              "messageStrings": {},
+              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT)."
+              },
+              "properties": {
+                "tags": [
+                  "SECURITY",
+                  "SPRING_ENDPOINT"
+                ]
+              }
+            },
+            {
+              "id": "SQL_INJECTION_JDBC",
+              "shortDescription": {
+                "text": "Potential JDBC Injection."
+              },
+              "messageStrings": {},
+              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDBC",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDBC](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDBC)."
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "89",
+                    "guid": "ef952f10-a202-504c-8649-9ffcb2291d69",
+                    "toolComponent": {
+                      "name": "CWE",
+                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ],
+              "properties": {
+                "tags": [
+                  "SECURITY",
+                  "SQL_INJECTION_JDBC"
+                ]
+              }
+            },
+            {
+              "id": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+              "shortDescription": {
+                "text": "Nonconstant string passed to execute or addBatch method on an SQL statement."
+              },
+              "messageStrings": {},
+              "helpUri": "https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE](https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE)."
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "89",
+                    "guid": "ef952f10-a202-504c-8649-9ffcb2291d69",
+                    "toolComponent": {
+                      "name": "CWE",
+                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ],
+              "properties": {
+                "tags": [
+                  "SECURITY",
+                  "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE"
+                ]
+              }
+            },
+            {
+              "id": "SQL_INJECTION_SPRING_JDBC",
+              "shortDescription": {
+                "text": "Potential JDBC Injection (Spring JDBC)."
+              },
+              "messageStrings": {},
+              "helpUri": "https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_SPRING_JDBC",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_SPRING_JDBC](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_SPRING_JDBC)."
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "89",
+                    "guid": "ef952f10-a202-504c-8649-9ffcb2291d69",
+                    "toolComponent": {
+                      "name": "CWE",
+                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ],
+              "properties": {
+                "tags": [
+                  "SECURITY",
+                  "SQL_INJECTION_SPRING_JDBC"
+                ]
+              }
+            },
+            {
+              "id": "SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING",
+              "shortDescription": {
+                "text": "A prepared statement is generated from a nonconstant String."
+              },
+              "messageStrings": {},
+              "helpUri": "https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING](https://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING)."
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "89",
+                    "guid": "ef952f10-a202-504c-8649-9ffcb2291d69",
+                    "toolComponent": {
+                      "name": "CWE",
+                      "guid": "b8c54a32-de19-51d2-9a08-f0abfbaa7310"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ],
+              "properties": {
+                "tags": [
+                  "SECURITY",
+                  "SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING"
+                ]
+              }
+            }
+          ],
+          "language": "en-US",
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": false
+        }
+      },
+      "language": "en-US",
+      "results": [
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.info(Ljava/lang/String;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/dummy/insecure/framework/VulnerableTaskHolder.java"
+                },
+                "region": {
+                  "startLine": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readObject(ObjectInputStream)",
+                  "fullyQualifiedName": "org.dummy.insecure.framework.VulnerableTaskHolder.readObject(ObjectInputStream)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.info(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/dummy/insecure/framework/VulnerableTaskHolder.java"
+                },
+                "region": {
+                  "startLine": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readObject(ObjectInputStream)",
+                  "fullyQualifiedName": "org.dummy.insecure.framework.VulnerableTaskHolder.readObject(ObjectInputStream)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.debug(Ljava/lang/String;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/dummy/insecure/framework/VulnerableTaskHolder.java"
+                },
+                "region": {
+                  "startLine": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readObject(ObjectInputStream)",
+                  "fullyQualifiedName": "org.dummy.insecure.framework.VulnerableTaskHolder.readObject(ObjectInputStream)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.info(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/dummy/insecure/framework/VulnerableTaskHolder.java"
+                },
+                "region": {
+                  "startLine": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "readObject(ObjectInputStream)",
+                  "fullyQualifiedName": "org.dummy.insecure.framework.VulnerableTaskHolder.readObject(ObjectInputStream)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.debug(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
+                },
+                "region": {
+                  "startLine": 131
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeResourceName(String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.AsciiDoctorTemplateResolver.computeResourceName(String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.debug(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
+                },
+                "region": {
+                  "startLine": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeTemplateResource(IEngineConfiguration, String, String, String, String, Map)",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.AsciiDoctorTemplateResolver.computeTemplateResource(IEngineConfiguration, String, String, String, String, Map)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.debug(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
+                },
+                "region": {
+                  "startLine": 159
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "determineLanguage()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.AsciiDoctorTemplateResolver.determineLanguage()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.debug(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
+                },
+                "region": {
+                  "startLine": 164
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "determineLanguage()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.AsciiDoctorTemplateResolver.determineLanguage()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.debug(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java"
+                },
+                "region": {
+                  "startLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getInputStream(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.AsciiDoctorTemplateResolver.getInputStream(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.HammerHead"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/HammerHead.java"
+                },
+                "region": {
+                  "startLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "attack()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.HammerHead.attack()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.error(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/LessonTemplateResolver.java"
+                },
+                "region": {
+                  "startLine": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "computeTemplateResource(IEngineConfiguration, String, String, String, String, Map)",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.LessonTemplateResolver.computeTemplateResource(IEngineConfiguration, String, String, String, String, Map)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.debug(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/MvcConfiguration.java"
+                },
+                "region": {
+                  "startLine": 152
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "asciiDoctorTemplateResolver(Language, ResourceLoader)",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.MvcConfiguration.asciiDoctorTemplateResolver(Language, ResourceLoader)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.WebWolfRedirect"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/WebWolfRedirect.java"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "openWebWolf()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.WebWolfRedirect.openWebWolf()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.controller.StartLesson"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/controller/StartLesson.java"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "start()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.controller.StartLesson.start()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.warn(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/lessons/CourseConfiguration.java"
+                },
+                "region": {
+                  "startLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createAssignment(Lesson)",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.lessons.CourseConfiguration.createAssignment(Lesson)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.execute(Ljava/lang/String;)Z"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/lessons/LessonConnectionInvocationHandler.java"
+                },
+                "region": {
+                  "startLine": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "invoke(Object, Method, Object[])",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.lessons.LessonConnectionInvocationHandler.invoke(Object, Method, Object[])",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Nonconstant string passed to execute or addBatch method on an SQL statement",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.lessons.LessonConnectionInvocationHandler.invoke(Object, Method, Object[])"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/lessons/LessonConnectionInvocationHandler.java"
+                },
+                "region": {
+                  "startLine": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "invoke(Object, Method, Object[])",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.lessons.LessonConnectionInvocationHandler.invoke(Object, Method, Object[])",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.report.ReportCardController"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/report/ReportCardController.java"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "reportCard()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.report.ReportCardController.reportCard()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.EnvironmentService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/EnvironmentService.java"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "homeDirectory()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.EnvironmentService.homeDirectory()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.HintService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/HintService.java"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getHints()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.HintService.getHints()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.LabelDebugService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LabelDebugService.java"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "checkDebuggingStatus()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.LabelDebugService.checkDebuggingStatus()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.LabelDebugService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LabelDebugService.java"
+                },
+                "region": {
+                  "startLine": 83,
+                  "endLine": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "setDebuggingStatus(Boolean)",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.LabelDebugService.setDebuggingStatus(Boolean)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.LabelService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LabelService.java"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "fetchLabels()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.LabelService.fetchLabels()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.LessonInfoService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LessonInfoService.java"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getLessonInfo()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.LessonInfoService.getLessonInfo()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.LessonMenuService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LessonMenuService.java"
+                },
+                "region": {
+                  "startLine": 78,
+                  "endLine": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "showLeftNav()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.LessonMenuService.showLeftNav()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.LessonProgressService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LessonProgressService.java"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "lessonOverview()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.LessonProgressService.lessonOverview()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.LessonTitleService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/LessonTitleService.java"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "showPlan()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.LessonTitleService.showPlan()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.debug(Ljava/lang/String;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/RestartLessonService.java"
+                },
+                "region": {
+                  "startLine": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "restartLesson()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.RestartLessonService.restartLesson()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.RestartLessonService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/RestartLessonService.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "restartLesson()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.RestartLessonService.restartLesson()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.service.SessionService"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/service/SessionService.java"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "applySecurity()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.service.SessionService.applySecurity()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.users.Scoreboard"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/users/Scoreboard.java"
+                },
+                "region": {
+                  "startLine": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getRankings()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.users.Scoreboard.getRankings()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_SPRING_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection (Spring JDBC)",
+            "id": "default",
+            "arguments": [
+              "org/springframework/jdbc/core/JdbcTemplate.execute(Ljava/lang/String;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/users/UserService.java"
+                },
+                "region": {
+                  "startLine": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createLessonsForUser(WebGoatUser)",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.users.UserService.createLessonsForUser(WebGoatUser)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.challenges.challenge1.ImageServlet"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge1/ImageServlet.java"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "logo()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.challenges.challenge1.ImageServlet.logo()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Connection.prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge5/Assignment5.java"
+                },
+                "region": {
+                  "startLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "login(String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.challenges.challenge5.Assignment5.login(String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "A prepared statement is generated from a nonconstant String",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.challenges.challenge5.Assignment5.login(String, String)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge5/Assignment5.java"
+                },
+                "region": {
+                  "startLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "login(String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.challenges.challenge5.Assignment5.login(String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.challenges.challenge7.Assignment7"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge7/Assignment7.java"
+                },
+                "region": {
+                  "startLine": 101
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "git()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.challenges.challenge7.Assignment7.git()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.challenges.challenge8.Assignment8"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge8/Assignment8.java"
+                },
+                "region": {
+                  "startLine": 63,
+                  "endLine": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "average()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.challenges.challenge8.Assignment8.average()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.challenges.challenge8.Assignment8"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge8/Assignment8.java"
+                },
+                "region": {
+                  "startLine": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getVotes()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.challenges.challenge8.Assignment8.getVotes()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.challenges.challenge8.Assignment8"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/challenges/challenge8/Assignment8.java"
+                },
+                "region": {
+                  "startLine": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "notUsed()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.challenges.challenge8.Assignment8.notUsed()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.cia.CIAQuiz"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/cia/CIAQuiz.java"
+                },
+                "region": {
+                  "startLine": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getResults()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.cia.CIAQuiz.getResults()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.error(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/clientsidefiltering/Salaries.java"
+                },
+                "region": {
+                  "startLine": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "invoke()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.clientsidefiltering.Salaries.invoke()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.clientsidefiltering.Salaries"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/clientsidefiltering/Salaries.java"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 110
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "invoke()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.clientsidefiltering.Salaries.invoke()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.clientsidefiltering.ShopEndpoint"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/clientsidefiltering/ShopEndpoint.java"
+                },
+                "region": {
+                  "startLine": 81,
+                  "endLine": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "all()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.clientsidefiltering.ShopEndpoint.all()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.info(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/cryptography/CryptoUtil.java"
+                },
+                "region": {
+                  "startLine": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "signMessage(String, PrivateKey)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.cryptography.CryptoUtil.signMessage(String, PrivateKey)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.warn(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/cryptography/SigningAssignment.java"
+                },
+                "region": {
+                  "startLine": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "completed(HttpServletRequest, String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.cryptography.SigningAssignment.completed(HttpServletRequest, String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.csrf.ForgedReviews"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/csrf/ForgedReviews.java"
+                },
+                "region": {
+                  "startLine": 77,
+                  "endLine": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "retrieveReviews()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.csrf.ForgedReviews.retrieveReviews()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.error(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/idor/IDORViewOwnProfile.java"
+                },
+                "region": {
+                  "startLine": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "invoke()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.idor.IDORViewOwnProfile.invoke()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.idor.IDORViewOwnProfile"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/idor/IDORViewOwnProfile.java"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "invoke()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.idor.IDORViewOwnProfile.invoke()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.insecurelogin.InsecureLoginTask"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/insecurelogin/InsecureLoginTask.java"
+                },
+                "region": {
+                  "startLine": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "login()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.insecurelogin.InsecureLoginTask.login()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.jwt.JWTQuiz"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/jwt/JWTQuiz.java"
+                },
+                "region": {
+                  "startLine": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getResults()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.jwt.JWTQuiz.getResults()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.jwt.JWTSecretKeyEndpoint"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/jwt/JWTSecretKeyEndpoint.java"
+                },
+                "region": {
+                  "startLine": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getSecretToken()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.jwt.JWTSecretKeyEndpoint.getSecretToken()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/jwt/claimmisuse/JWTHeaderKIDEndpoint.java"
+                },
+                "region": {
+                  "startLine": 91
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "resolveSigningKeyBytes(JwsHeader, Claims)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.jwt.claimmisuse.JWTHeaderKIDEndpoint$1.resolveSigningKeyBytes(JwsHeader, Claims)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Nonconstant string passed to execute or addBatch method on an SQL statement",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.jwt.claimmisuse.JWTHeaderKIDEndpoint$1.resolveSigningKeyBytes(JwsHeader, Claims)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/jwt/claimmisuse/JWTHeaderKIDEndpoint.java"
+                },
+                "region": {
+                  "startLine": 91
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "resolveSigningKeyBytes(JwsHeader, Claims)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.jwt.claimmisuse.JWTHeaderKIDEndpoint$1.resolveSigningKeyBytes(JwsHeader, Claims)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.info(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/logging/LogBleedingTask.java"
+                },
+                "region": {
+                  "startLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "generatePassword()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.logging.LogBleedingTask.generatePassword()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.missingac.MissingFunctionACUsers"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/missingac/MissingFunctionACUsers.java"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "listUsers()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.missingac.MissingFunctionACUsers.listUsers()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.missingac.MissingFunctionACUsers"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/missingac/MissingFunctionACUsers.java"
+                },
+                "region": {
+                  "startLine": 85,
+                  "endLine": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "usersFixed()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.missingac.MissingFunctionACUsers.usersFixed()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.missingac.MissingFunctionACUsers"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/missingac/MissingFunctionACUsers.java"
+                },
+                "region": {
+                  "startLine": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "usersService()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.missingac.MissingFunctionACUsers.usersService()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.pathtraversal.ProfileUpload"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUpload.java"
+                },
+                "region": {
+                  "startLine": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getProfilePicture()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.pathtraversal.ProfileUpload.getProfilePicture()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.pathtraversal.ProfileUploadFix"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadFix.java"
+                },
+                "region": {
+                  "startLine": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getProfilePicture()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.pathtraversal.ProfileUploadFix.getProfilePicture()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.error(Ljava/lang/String;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java"
+                },
+                "region": {
+                  "startLine": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "initAssignment()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.pathtraversal.ProfileUploadRetrieval.initAssignment()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.error(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java"
+                },
+                "region": {
+                  "startLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "initAssignment()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.pathtraversal.ProfileUploadRetrieval.initAssignment()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.pathtraversal.ProfileZipSlip"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileZipSlip.java"
+                },
+                "region": {
+                  "startLine": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getProfilePicture()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.pathtraversal.ProfileZipSlip.getProfilePicture()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.pathtraversal.ProfileZipSlip"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileZipSlip.java"
+                },
+                "region": {
+                  "startLine": 100
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getProfilePicture(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.pathtraversal.ProfileZipSlip.getProfilePicture(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionChallenge.java"
+                },
+                "region": {
+                  "startLine": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "registerNewUser(String, String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.advanced.SqlInjectionChallenge.registerNewUser(String, String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Nonconstant string passed to execute or addBatch method on an SQL statement",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.sqlinjection.advanced.SqlInjectionChallenge.registerNewUser(String, String, String)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionChallenge.java"
+                },
+                "region": {
+                  "startLine": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "registerNewUser(String, String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.advanced.SqlInjectionChallenge.registerNewUser(String, String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6a.java"
+                },
+                "region": {
+                  "startLine": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQuery(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.advanced.SqlInjectionLesson6a.injectableQuery(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Nonconstant string passed to execute or addBatch method on an SQL statement",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.sqlinjection.advanced.SqlInjectionLesson6a.injectableQuery(String)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6a.java"
+                },
+                "region": {
+                  "startLine": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQuery(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.advanced.SqlInjectionLesson6a.injectableQuery(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.sqlinjection.advanced.SqlInjectionQuiz"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionQuiz.java"
+                },
+                "region": {
+                  "startLine": 85
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getResults()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.advanced.SqlInjectionQuiz.getResults()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson10.java"
+                },
+                "region": {
+                  "startLine": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQueryAvailability(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson10.injectableQueryAvailability(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Nonconstant string passed to execute or addBatch method on an SQL statement",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson10.injectableQueryAvailability(String)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson10.java"
+                },
+                "region": {
+                  "startLine": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQueryAvailability(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson10.injectableQueryAvailability(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson2.java"
+                },
+                "region": {
+                  "startLine": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQuery(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson2.injectableQuery(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeUpdate(Ljava/lang/String;)I"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson3.java"
+                },
+                "region": {
+                  "startLine": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQuery(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson3.injectableQuery(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeUpdate(Ljava/lang/String;)I"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson4.java"
+                },
+                "region": {
+                  "startLine": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQuery(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson4.injectableQuery(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5.java"
+                },
+                "region": {
+                  "startLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQuery(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson5.injectableQuery(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5a.java"
+                },
+                "region": {
+                  "startLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQuery(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson5a.injectableQuery(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Nonconstant string passed to execute or addBatch method on an SQL statement",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson5a.injectableQuery(String)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5a.java"
+                },
+                "region": {
+                  "startLine": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQuery(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson5a.injectableQuery(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Connection.prepareStatement(Ljava/lang/String;II)Ljava/sql/PreparedStatement;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5b.java"
+                },
+                "region": {
+                  "startLine": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQuery(String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson5b.injectableQuery(String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "A prepared statement is generated from a nonconstant String",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson5b.injectableQuery(String, String)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5b.java"
+                },
+                "region": {
+                  "startLine": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQuery(String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson5b.injectableQuery(String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeUpdate(Ljava/lang/String;)I"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
+                },
+                "region": {
+                  "startLine": 158
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "log(Connection, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson8.log(Connection, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
+                },
+                "region": {
+                  "startLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQueryConfidentiality(String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson8.injectableQueryConfidentiality(String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Nonconstant string passed to execute or addBatch method on an SQL statement",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson8.injectableQueryConfidentiality(String, String)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
+                },
+                "region": {
+                  "startLine": 78
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQueryConfidentiality(String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson8.injectableQueryConfidentiality(String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Nonconstant string passed to execute or addBatch method on an SQL statement",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson8.log(Connection, String)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java"
+                },
+                "region": {
+                  "startLine": 158
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "log(Connection, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson8.log(Connection, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java"
+                },
+                "region": {
+                  "startLine": 111
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getSqlInt(Connection, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson9.getSqlInt(Connection, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Statement.execute(Ljava/lang/String;)Z"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java"
+                },
+                "region": {
+                  "startLine": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQueryIntegrity(String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson9.injectableQueryIntegrity(String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Nonconstant string passed to execute or addBatch method on an SQL statement",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson9.injectableQueryIntegrity(String, String)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java"
+                },
+                "region": {
+                  "startLine": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "injectableQueryIntegrity(String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.introduction.SqlInjectionLesson9.injectableQueryIntegrity(String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_INJECTION_JDBC",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential JDBC Injection",
+            "id": "default",
+            "arguments": [
+              "java/sql/Connection.prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/Servers.java"
+                },
+                "region": {
+                  "startLine": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sort(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.mitigation.Servers.sort(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "A prepared statement is generated from a nonconstant String",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.sqlinjection.mitigation.Servers.sort(String)"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/Servers.java"
+                },
+                "region": {
+                  "startLine": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "sort(String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.sqlinjection.mitigation.Servers.sort(String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.xss.CrossSiteScriptingQuiz"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xss/CrossSiteScriptingQuiz.java"
+                },
+                "region": {
+                  "startLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getResults()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.xss.CrossSiteScriptingQuiz.getResults()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.xss.stored.StoredXssComments"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xss/stored/StoredXssComments.java"
+                },
+                "region": {
+                  "startLine": 81,
+                  "endLine": 88
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "retrieveComments()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.xss.stored.StoredXssComments.retrieveComments()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.error(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xxe/BlindSendFileAssignment.java"
+                },
+                "region": {
+                  "startLine": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createSecretFileWithRandomContents(WebGoatUser)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.xxe.BlindSendFileAssignment.createSecretFileWithRandomContents(WebGoatUser)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.xxe.CommentsEndpoint"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xxe/CommentsEndpoint.java"
+                },
+                "region": {
+                  "startLine": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "retrieveComments()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.xxe.CommentsEndpoint.retrieveComments()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.debug(Ljava/lang/String;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xxe/Ping.java"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "logRequest(String, String)",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.xxe.Ping.logRequest(String, String)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.lessons.xxe.SimpleXXE"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/lessons/xxe/SimpleXXE.java"
+                },
+                "region": {
+                  "startLine": 105
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getSampleDTDFile()",
+                  "fullyQualifiedName": "org.owasp.webgoat.lessons.xxe.SimpleXXE.getSampleDTDFile()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.warn(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/server/StartWebGoat.java"
+                },
+                "region": {
+                  "startLine": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "printStartUpMessage(ApplicationContext)",
+                  "fullyQualifiedName": "org.owasp.webgoat.server.StartWebGoat.printStartUpMessage(ApplicationContext)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.debug(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/webwolf/FileServer.java"
+                },
+                "region": {
+                  "startLine": 97
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "importFile(MultipartFile, Authentication)",
+                  "fullyQualifiedName": "org.owasp.webgoat.webwolf.FileServer.importFile(MultipartFile, Authentication)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.webwolf.FileServer"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/webwolf/FileServer.java"
+                },
+                "region": {
+                  "startLine": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "getFileLocation()",
+                  "fullyQualifiedName": "org.owasp.webgoat.webwolf.FileServer.getFileLocation()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.webwolf.jwt.JWTController"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/webwolf/jwt/JWTController.java"
+                },
+                "region": {
+                  "startLine": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "jwt()",
+                  "fullyQualifiedName": "org.owasp.webgoat.webwolf.jwt.JWTController.jwt()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.webwolf.mailbox.MailboxController"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/webwolf/mailbox/MailboxController.java"
+                },
+                "region": {
+                  "startLine": 67,
+                  "endLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "deleteAllMail()",
+                  "fullyQualifiedName": "org.owasp.webgoat.webwolf.mailbox.MailboxController.deleteAllMail()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.trace(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/webwolf/requests/LandingPage.java"
+                },
+                "region": {
+                  "startLine": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "lambda$ok$0(HttpServletRequest)",
+                  "fullyQualifiedName": "org.owasp.webgoat.webwolf.requests.LandingPage.lambda$ok$0(HttpServletRequest)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ]
+    }
+  ]
+}

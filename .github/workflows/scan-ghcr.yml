@@ -53,6 +53,7 @@ jobs:
       - name: Commit reports
         run: |
           git config --global user.name ${{ github.actor }}
+          git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
           rm -f $GITHUB_WORKSPACE/.glog/glog-scan-java*.sarif
           git add .
           git commit -am "Scan executed"

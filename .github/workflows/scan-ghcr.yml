@@ -34,9 +34,7 @@ jobs:
           cache: 'maven'
 
       - name: Compile project
-        run: |
-          export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
-          mvn clean compile
+        run: mvn clean compile
 
       - name: Authenticate to GitHub Container Registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin

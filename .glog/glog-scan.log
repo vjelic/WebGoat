@@ -1,11 +1,11 @@
-May 06, 2025 4:58:47 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
+May 06, 2025 5:07:21 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 	at ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver.getDetailText(CrlfInjectionLogsResolver.java:113)
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 06, 2025 4:58:47 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
+May 06, 2025 5:07:21 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 	at ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver.getDetailText(CrlfInjectionLogsResolver.java:113)
@@ -13,14 +13,14 @@ java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.Paramet
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:73)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 06, 2025 4:58:50 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
+May 06, 2025 5:07:23 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 	at ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver.getDetailText(CrlfInjectionLogsResolver.java:113)
 	at ai.glog.execute.GlogTriage.execute(GlogTriage.java:71)
 	at ai.glog.GlogCommandLine.main(GlogCommandLine.java:65)
 
-May 06, 2025 4:58:50 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
+May 06, 2025 5:07:23 PM ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver getDetailText
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "statementRemediation" is null
 	at ai.glog.plugins.spotbugs.bug.resolve.CrlfInjectionLogsResolver.getDetailText(CrlfInjectionLogsResolver.java:113)

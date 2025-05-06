@@ -22,6 +22,8 @@ jobs:
     permissions:
       contents: write
       packages: read
+      pull-requests: write
+      repository-projects: write
     # container: ghcr.io/vjelic/glog-scan-java
 
     # Steps represent a sequence of tasks that will be executed as part of the job

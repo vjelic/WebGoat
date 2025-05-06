@@ -19,6 +19,9 @@ jobs:
   glog-scan-ghcr:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: read
     # container: ghcr.io/vjelic/glog-scan-java
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -34,7 +37,7 @@ jobs:
           cache: 'maven'
 
       - name: Compile project
-        run: mvn clean compile
+        run: mvn --batch-mode clean compile
 
       - name: Authenticate to GitHub Container Registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin

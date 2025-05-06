@@ -58,13 +58,13 @@ jobs:
           echo "Cleaned"
 
       - name: Execute Java scan
-        run: docker run --rm -e GLOGSERVICE=${{ secrets.GLOG_TOKEN }} -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -e IGNORE="$ignore" -v "$GITHUB_WORKSPACE":/app -v "$GITHUB_WORKSPACE/.glog:/.glog:rw" -v "$GITHUB_WORKSPACE/.glog-log:/.glog-log:rw" "ghcr.io/vjelic/glog-scan-java@sha256:1b79283937ecc1329cea0583b2e3284ef641895812ecb4d323d5a5fbd0689657"
+        run: docker run --rm -e GLOGSERVICE=${{ secrets.GLOG_TOKEN }} -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -e IGNORE="$ignore" -v "$GITHUB_WORKSPACE:/app:rw" -v "$GITHUB_WORKSPACE/.glog:/.glog:rw" "ghcr.io/vjelic/glog-scan-java@sha256:1b79283937ecc1329cea0583b2e3284ef641895812ecb4d323d5a5fbd0689657"
 
       - name: Execute Javascript scan
-        run: docker run --rm -e GLOGSERVICE=${{ secrets.GLOG_TOKEN }} -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -e IGNORE="$ignore" -v "$GITHUB_WORKSPACE":/app -v "$GITHUB_WORKSPACE/.glog:/.glog:rw" -v "$GITHUB_WORKSPACE/.glog-log:/.glog-log:rw" "ghcr.io/vjelic/glog-scan-javascript@sha256:c9a73beecfd6982a659a3963e00354f1841f21f9d7e15746a38faa9b7d41fc05"
+        run: docker run --rm -e GLOGSERVICE=${{ secrets.GLOG_TOKEN }} -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -e IGNORE="$ignore" -v "$GITHUB_WORKSPACE:/app:rw" -v "$GITHUB_WORKSPACE/.glog:/.glog:rw" "ghcr.io/vjelic/glog-scan-javascript@sha256:c9a73beecfd6982a659a3963e00354f1841f21f9d7e15746a38faa9b7d41fc05"
 
       - name: Execute Glog resolver
-        run: docker run --rm -e GLOGSERVICE=${{ secrets.GLOG_TOKEN }} -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -e IGNORE="$ignore" -v "$GITHUB_WORKSPACE":/app -v "$GITHUB_WORKSPACE/.glog:/.glog:rw" -v "$GITHUB_WORKSPACE/.glog-log:/.glog-log:rw"  "ghcr.io/vjelic/glog-scan-resolver@sha256:9a8a951a9df0ec8d4488232b6f9652acd3c72ea091c06a48cc7a350c4b20f87f"
+        run: docker run --rm -e GLOGSERVICE=${{ secrets.GLOG_TOKEN }} -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -e IGNORE="$ignore" -v "$GITHUB_WORKSPACE:/app:rw" -v "$GITHUB_WORKSPACE/.glog:/.glog:rw" "ghcr.io/vjelic/glog-scan-resolver@sha256:9a8a951a9df0ec8d4488232b6f9652acd3c72ea091c06a48cc7a350c4b20f87f"
               
       - name: Commit reports
         run: |

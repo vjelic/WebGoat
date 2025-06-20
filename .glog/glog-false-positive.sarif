@@ -229,37 +229,6 @@
           ]
         },
         {
-          "ruleId": "SPRING_ENDPOINT",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Found Spring endpoint",
-            "id": "default",
-            "arguments": [
-              "org.owasp.webgoat.container.HammerHead"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/org/owasp/webgoat/container/HammerHead.java"
-                },
-                "region": {
-                  "startLine": 54
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "attack()",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.HammerHead.attack()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "ruleId": "CRLF_INJECTION_LOGS",
           "kind": "fail",
           "level": "note",
@@ -329,6 +298,68 @@
             "text": "Found Spring endpoint",
             "id": "default",
             "arguments": [
+              "org.owasp.webgoat.container.HammerHead"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/HammerHead.java"
+                },
+                "region": {
+                  "startLine": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "attack()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.HammerHead.attack()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CRLF_INJECTION_LOGS",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Potential CRLF Injection for logs",
+            "id": "default",
+            "arguments": [
+              "org/slf4j/Logger.warn(Ljava/lang/String;Ljava/lang/Object;)V"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/lessons/CourseConfiguration.java"
+                },
+                "region": {
+                  "startLine": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "createAssignment(Lesson)",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.lessons.CourseConfiguration.createAssignment(Lesson)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
               "org.owasp.webgoat.container.WebWolfRedirect"
             ]
           },
@@ -379,37 +410,6 @@
                 {
                   "name": "start()",
                   "fullyQualifiedName": "org.owasp.webgoat.container.controller.StartLesson.start()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "CRLF_INJECTION_LOGS",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Potential CRLF Injection for logs",
-            "id": "default",
-            "arguments": [
-              "org/slf4j/Logger.warn(Ljava/lang/String;Ljava/lang/Object;)V"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/org/owasp/webgoat/container/lessons/CourseConfiguration.java"
-                },
-                "region": {
-                  "startLine": 68
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "createAssignment(Lesson)",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.lessons.CourseConfiguration.createAssignment(Lesson)",
                   "kind": "function"
                 }
               ]

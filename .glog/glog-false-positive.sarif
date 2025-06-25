@@ -322,38 +322,6 @@
           ]
         },
         {
-          "ruleId": "SPRING_ENDPOINT",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Found Spring endpoint",
-            "id": "default",
-            "arguments": [
-              "org.owasp.webgoat.container.controller.StartLesson"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/org/owasp/webgoat/container/controller/StartLesson.java"
-                },
-                "region": {
-                  "startLine": 62,
-                  "endLine": 68
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "start()",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.controller.StartLesson.start()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "ruleId": "CRLF_INJECTION_LOGS",
           "kind": "fail",
           "level": "note",
@@ -378,6 +346,38 @@
                 {
                   "name": "createAssignment(Lesson)",
                   "fullyQualifiedName": "org.owasp.webgoat.container.lessons.CourseConfiguration.createAssignment(Lesson)",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
+              "org.owasp.webgoat.container.WebWolfRedirect"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/WebWolfRedirect.java"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "openWebWolf()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.WebWolfRedirect.openWebWolf()",
                   "kind": "function"
                 }
               ]
@@ -837,24 +837,24 @@
             "text": "Found Spring endpoint",
             "id": "default",
             "arguments": [
-              "org.owasp.webgoat.container.WebWolfRedirect"
+              "org.owasp.webgoat.container.controller.StartLesson"
             ]
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "src/main/java/org/owasp/webgoat/container/WebWolfRedirect.java"
+                  "uri": "src/main/java/org/owasp/webgoat/container/controller/StartLesson.java"
                 },
                 "region": {
-                  "startLine": 17,
-                  "endLine": 19
+                  "startLine": 62,
+                  "endLine": 68
                 }
               },
               "logicalLocations": [
                 {
-                  "name": "openWebWolf()",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.WebWolfRedirect.openWebWolf()",
+                  "name": "start()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.controller.StartLesson.start()",
                   "kind": "function"
                 }
               ]

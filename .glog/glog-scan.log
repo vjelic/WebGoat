@@ -1,4 +1,4 @@
-Jun 25, 2025 9:44:46 PM ai.glog.plugins.spotbugs.bug.a.o a
+Jun 26, 2025 2:47:03 PM ai.glog.plugins.spotbugs.bug.a.o a
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
 	at ai.glog.plugins.spotbugs.bug.a.o.a(Unknown Source)
@@ -9,30 +9,7 @@ java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.Paramet
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:44:46 PM ai.glog.plugins.spotbugs.bug.a.o a
-SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
-java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
-	at ai.glog.plugins.spotbugs.bug.a.o.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:44:46 PM ai.glog.plugins.spotbugs.bug.a.o a
-SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
-java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
-	at ai.glog.plugins.spotbugs.bug.a.o.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:44:46 PM ai.glog.plugins.spotbugs.bug.a.o a
+Jun 26, 2025 2:47:03 PM ai.glog.plugins.spotbugs.bug.a.o a
 SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
 java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
 	at ai.glog.plugins.spotbugs.bug.a.o.a(Unknown Source)
@@ -44,7 +21,30 @@ java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.Paramet
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:45:01 PM ai.glog.plugins.spotbugs.bug.a.aO a
+Jun 26, 2025 2:47:04 PM ai.glog.plugins.spotbugs.bug.a.o a
+SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
+java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
+	at ai.glog.plugins.spotbugs.bug.a.o.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:04 PM ai.glog.plugins.spotbugs.bug.a.o a
+SEVERE: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
+java.lang.NullPointerException: Cannot invoke "ai.glog.context.miner.dto.ParameterDto.getRemediation()" because "<local10>" is null
+	at ai.glog.plugins.spotbugs.bug.a.o.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:21 PM ai.glog.plugins.spotbugs.bug.a.aO a
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Unknown Source)
@@ -75,348 +75,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:45:01 PM ai.glog.plugins.spotbugs.bug.a.aO a
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.k.a(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
-	at scala.collection.AbstractIterator.foreach(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
-	at scala.collection.AbstractIterator.foreach(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at ai.glog.b.a.c.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aO.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aO.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ a
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ b
-SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
-	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator.isEmpty(Unknown Source)
-	at scala.collection.Iterator.isEmpty$(Unknown Source)
-	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ a
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ b
-SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
-	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator.isEmpty(Unknown Source)
-	at scala.collection.Iterator.isEmpty$(Unknown Source)
-	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ a
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ b
-SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
-	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator.isEmpty(Unknown Source)
-	at scala.collection.Iterator.isEmpty$(Unknown Source)
-	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ a
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ b
-SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
-	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator.isEmpty(Unknown Source)
-	at scala.collection.Iterator.isEmpty$(Unknown Source)
-	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ a
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ b
-SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
-	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator.isEmpty(Unknown Source)
-	at scala.collection.Iterator.isEmpty$(Unknown Source)
-	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ a
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:04 PM ai.glog.plugins.spotbugs.bug.a.aQ b
-SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
-	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
-	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator.isEmpty(Unknown Source)
-	at scala.collection.Iterator.isEmpty$(Unknown Source)
-	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
-	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.h.a(Unknown Source)
-	at ai.glog.b.a.g.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:05 PM ai.glog.plugins.spotbugs.bug.a.aO a
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.k.a(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
-	at scala.collection.AbstractIterator.foreach(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
-	at scala.collection.AbstractIterator.foreach(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at ai.glog.b.a.c.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aO.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aO.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:05 PM ai.glog.plugins.spotbugs.bug.a.aO a
+Jun 26, 2025 2:47:21 PM ai.glog.plugins.spotbugs.bug.a.aO a
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Unknown Source)
@@ -448,7 +107,348 @@ java.util.NoSuchElementException: next on empty iterator
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:45:08 PM ai.glog.plugins.spotbugs.bug.a.ae a
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ a
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ b
+SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
+	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator.isEmpty(Unknown Source)
+	at scala.collection.Iterator.isEmpty$(Unknown Source)
+	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ a
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ b
+SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
+	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator.isEmpty(Unknown Source)
+	at scala.collection.Iterator.isEmpty$(Unknown Source)
+	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ a
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ b
+SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
+	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator.isEmpty(Unknown Source)
+	at scala.collection.Iterator.isEmpty$(Unknown Source)
+	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ a
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ b
+SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
+	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator.isEmpty(Unknown Source)
+	at scala.collection.Iterator.isEmpty$(Unknown Source)
+	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ a
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ b
+SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
+	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator.isEmpty(Unknown Source)
+	at scala.collection.Iterator.isEmpty$(Unknown Source)
+	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ a
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:25 PM ai.glog.plugins.spotbugs.bug.a.aQ b
+SEVERE: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+java.lang.NullPointerException: Cannot invoke "io.shiftleft.codepropertygraph.generated.nodes.StoredNode._astOut()" because "<parameter1>" is null
+	at io.shiftleft.codepropertygraph.generated.nodes.RootTypesTraversals$package$._astOut$$anonfun$1(Unknown Source)
+	at scala.collection.Iterator$$anon$10.nextCur(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator.isEmpty(Unknown Source)
+	at scala.collection.Iterator.isEmpty$(Unknown Source)
+	at scala.collection.AbstractIterator.isEmpty(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.traverseOnWorklist(Unknown Source)
+	at flatgraph.traversal.RepeatStepIterator.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$10.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.hasNext(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.h.a(Unknown Source)
+	at ai.glog.b.a.g.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aQ.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:26 PM ai.glog.plugins.spotbugs.bug.a.aO a
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.k.a(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
+	at scala.collection.AbstractIterator.foreach(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
+	at scala.collection.AbstractIterator.foreach(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at ai.glog.b.a.c.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aO.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aO.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:26 PM ai.glog.plugins.spotbugs.bug.a.aO a
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.k.a(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
+	at scala.collection.AbstractIterator.foreach(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
+	at scala.collection.AbstractIterator.foreach(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at ai.glog.b.a.c.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aO.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aO.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:29 PM ai.glog.plugins.spotbugs.bug.a.ae a
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Unknown Source)
@@ -466,7 +466,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:45:08 PM ai.glog.plugins.spotbugs.bug.a.ae a
+Jun 26, 2025 2:47:29 PM ai.glog.plugins.spotbugs.bug.a.ae a
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Unknown Source)
@@ -485,7 +485,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:45:28 PM ai.glog.plugins.spotbugs.bug.a.aO a
+Jun 26, 2025 2:47:53 PM ai.glog.plugins.spotbugs.bug.a.aO a
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Unknown Source)
@@ -520,78 +520,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:45:28 PM ai.glog.plugins.spotbugs.bug.a.aO a
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.k.a(Unknown Source)
-	at ai.glog.b.a.d.b(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
-	at scala.collection.AbstractIterator.foreach(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
-	at scala.collection.AbstractIterator.foreach(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
-	at scala.collection.AbstractIterator.foreach(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at ai.glog.b.a.c.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aO.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aO.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:28 PM ai.glog.plugins.spotbugs.bug.a.aO a
-SEVERE: next on empty iterator
-java.util.NoSuchElementException: next on empty iterator
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$19.next(Unknown Source)
-	at scala.collection.Iterator$$anon$6.next(Unknown Source)
-	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
-	at ai.glog.b.a.k.a(Unknown Source)
-	at ai.glog.b.a.d.b(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
-	at scala.collection.AbstractIterator.foreach(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
-	at scala.collection.AbstractIterator.foreach(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.runtime.function.JProcedure1.apply(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach(Unknown Source)
-	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
-	at scala.collection.AbstractIterator.foreach(Unknown Source)
-	at ai.glog.b.a.d.a(Unknown Source)
-	at ai.glog.b.a.c.a(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aO.b(Unknown Source)
-	at ai.glog.plugins.spotbugs.bug.a.aO.a(Unknown Source)
-	at ai.glog.execute.a.b.a(Unknown Source)
-	at ai.glog.execute.a.b.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-
-Jun 25, 2025 9:45:28 PM ai.glog.plugins.spotbugs.bug.a.aO a
+Jun 26, 2025 2:47:53 PM ai.glog.plugins.spotbugs.bug.a.aO a
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Unknown Source)
@@ -627,7 +556,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:45:28 PM ai.glog.plugins.spotbugs.bug.a.aO a
+Jun 26, 2025 2:47:53 PM ai.glog.plugins.spotbugs.bug.a.aO a
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Unknown Source)
@@ -662,7 +591,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:45:28 PM ai.glog.plugins.spotbugs.bug.a.aO a
+Jun 26, 2025 2:47:53 PM ai.glog.plugins.spotbugs.bug.a.aO a
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Unknown Source)
@@ -698,7 +627,78 @@ java.util.NoSuchElementException: next on empty iterator
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:45:30 PM ai.glog.plugins.spotbugs.bug.a.aO a
+Jun 26, 2025 2:47:53 PM ai.glog.plugins.spotbugs.bug.a.aO a
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.k.a(Unknown Source)
+	at ai.glog.b.a.d.b(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
+	at scala.collection.AbstractIterator.foreach(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
+	at scala.collection.AbstractIterator.foreach(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
+	at scala.collection.AbstractIterator.foreach(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at ai.glog.b.a.c.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aO.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aO.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:53 PM ai.glog.plugins.spotbugs.bug.a.aO a
+SEVERE: next on empty iterator
+java.util.NoSuchElementException: next on empty iterator
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$19.next(Unknown Source)
+	at scala.collection.Iterator$$anon$6.next(Unknown Source)
+	at flatgraph.traversal.GenericSteps$.head$extension(Unknown Source)
+	at ai.glog.b.a.k.a(Unknown Source)
+	at ai.glog.b.a.d.b(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
+	at scala.collection.AbstractIterator.foreach(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
+	at scala.collection.AbstractIterator.foreach(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.runtime.function.JProcedure1.apply(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach$(Unknown Source)
+	at scala.collection.AbstractIterator.foreach(Unknown Source)
+	at ai.glog.b.a.d.a(Unknown Source)
+	at ai.glog.b.a.c.a(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aO.b(Unknown Source)
+	at ai.glog.plugins.spotbugs.bug.a.aO.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.a(Unknown Source)
+	at ai.glog.execute.a.b.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+Jun 26, 2025 2:47:55 PM ai.glog.plugins.spotbugs.bug.a.aO a
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Unknown Source)
@@ -729,7 +729,7 @@ java.util.NoSuchElementException: next on empty iterator
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1623)
 
-Jun 25, 2025 9:45:30 PM ai.glog.plugins.spotbugs.bug.a.aO a
+Jun 26, 2025 2:47:55 PM ai.glog.plugins.spotbugs.bug.a.aO a
 SEVERE: next on empty iterator
 java.util.NoSuchElementException: next on empty iterator
 	at scala.collection.Iterator$$anon$19.next(Unknown Source)

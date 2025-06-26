@@ -17,7 +17,7 @@ jobs:
           cache: 'maven'
 
       - name: Compile project
-        run: mvn --batch-mode clean compile
+        run: mvn clean install -DskipTests
 
       - name: Checkout glog-action repository
         uses: actions/checkout@v4

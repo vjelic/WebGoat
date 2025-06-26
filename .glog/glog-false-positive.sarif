@@ -360,6 +360,38 @@
             "text": "Found Spring endpoint",
             "id": "default",
             "arguments": [
+              "org.owasp.webgoat.container.WebWolfRedirect"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main/java/org/owasp/webgoat/container/WebWolfRedirect.java"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "openWebWolf()",
+                  "fullyQualifiedName": "org.owasp.webgoat.container.WebWolfRedirect.openWebWolf()",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "SPRING_ENDPOINT",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Found Spring endpoint",
+            "id": "default",
+            "arguments": [
               "org.owasp.webgoat.container.report.ReportCardController"
             ]
           },
@@ -791,38 +823,6 @@
                 {
                   "name": "getRankings()",
                   "fullyQualifiedName": "org.owasp.webgoat.container.users.Scoreboard.getRankings()",
-                  "kind": "function"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ruleId": "SPRING_ENDPOINT",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Found Spring endpoint",
-            "id": "default",
-            "arguments": [
-              "org.owasp.webgoat.container.WebWolfRedirect"
-            ]
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main/java/org/owasp/webgoat/container/WebWolfRedirect.java"
-                },
-                "region": {
-                  "startLine": 17,
-                  "endLine": 19
-                }
-              },
-              "logicalLocations": [
-                {
-                  "name": "openWebWolf()",
-                  "fullyQualifiedName": "org.owasp.webgoat.container.WebWolfRedirect.openWebWolf()",
                   "kind": "function"
                 }
               ]

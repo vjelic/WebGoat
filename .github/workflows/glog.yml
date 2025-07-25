@@ -32,7 +32,7 @@ jobs:
         with:
           lang: 'java,javascript,oss,secrets'
           debug: 'false'
-          client: 'mural'
+          client: 'demo'
           upload: 'true'
           github-token: ${{ secrets.PAT_TOKEN }}
           glog-token: ${{ secrets.GLOG_TOKEN }}

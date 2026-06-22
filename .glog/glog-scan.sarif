@@ -5462,48 +5462,6 @@
               }
             },
             {
-              "id": "CVE-2024-38821/pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar",
-              "name": "CVE-2024-38821 in pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar",
-              "shortDescription": {
-                "text": "CVE-2024-38821 in pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar"
-              },
-              "fullDescription": {
-                "text": "Spring Security vulnerable to Authorization Bypass of Static Resources in WebFlux Applications"
-              },
-              "help": {
-                "text": "- Description: Spring Security vulnerable to Authorization Bypass of Static Resources in WebFlux Applications\n- Advisory:\n  - Vulnerability: CVE-2024-38821\n  - Component: pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar\n- Mitigation: Update to version 6.2.7.",
-                "markdown": "- Description: Spring Security vulnerable to Authorization Bypass of Static Resources in WebFlux Applications\n- Advisory:\n  - Vulnerability: `CVE-2024-38821`\n  - Component: `pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar`\n- Mitigation: Update to version 6.2.7."
-              },
-              "properties": {
-                "security-severity": "8.0",
-                "tags": [
-                  "CVE-2024-38821",
-                  "security"
-                ]
-              }
-            },
-            {
-              "id": "CVE-2024-38827/pkg:maven/org.springframework.security/spring-security-core@6.2.4?type=jar",
-              "name": "CVE-2024-38827 in pkg:maven/org.springframework.security/spring-security-core@6.2.4?type=jar",
-              "shortDescription": {
-                "text": "CVE-2024-38827 in pkg:maven/org.springframework.security/spring-security-core@6.2.4?type=jar"
-              },
-              "fullDescription": {
-                "text": "Spring Framework has Authorization Bypass for Case Sensitive Comparisons"
-              },
-              "help": {
-                "text": "- Description: Spring Framework has Authorization Bypass for Case Sensitive Comparisons\n- Advisory:\n  - Vulnerability: CVE-2024-38827\n  - Component: pkg:maven/org.springframework.security/spring-security-core@6.2.4?type=jar\n- Mitigation: Update to version 6.2.8.",
-                "markdown": "- Description: Spring Framework has Authorization Bypass for Case Sensitive Comparisons\n- Advisory:\n  - Vulnerability: `CVE-2024-38827`\n  - Component: `pkg:maven/org.springframework.security/spring-security-core@6.2.4?type=jar`\n- Mitigation: Update to version 6.2.8."
-              },
-              "properties": {
-                "security-severity": "5.0",
-                "tags": [
-                  "CVE-2024-38827",
-                  "security"
-                ]
-              }
-            },
-            {
               "id": "CVE-2024-3884/pkg:maven/io.undertow/undertow-core@2.3.13.Final?type=jar",
               "name": "CVE-2024-3884 in pkg:maven/io.undertow/undertow-core@2.3.13.Final?type=jar",
               "shortDescription": {
@@ -5693,27 +5651,6 @@
               }
             },
             {
-              "id": "CVE-2025-22228/pkg:maven/org.springframework.security/spring-security-crypto@6.2.4?type=jar",
-              "name": "CVE-2025-22228 in pkg:maven/org.springframework.security/spring-security-crypto@6.2.4?type=jar",
-              "shortDescription": {
-                "text": "CVE-2025-22228 in pkg:maven/org.springframework.security/spring-security-crypto@6.2.4?type=jar"
-              },
-              "fullDescription": {
-                "text": "Spring Security Does Not Enforce Password Length"
-              },
-              "help": {
-                "text": "- Description: Spring Security Does Not Enforce Password Length\n- Advisory:\n  - Vulnerability: CVE-2025-22228\n  - Component: pkg:maven/org.springframework.security/spring-security-crypto@6.2.4?type=jar\n- Mitigation: Update to version 6.2.10.",
-                "markdown": "- Description: Spring Security Does Not Enforce Password Length\n- Advisory:\n  - Vulnerability: `CVE-2025-22228`\n  - Component: `pkg:maven/org.springframework.security/spring-security-crypto@6.2.4?type=jar`\n- Mitigation: Update to version 6.2.10."
-              },
-              "properties": {
-                "security-severity": "8.0",
-                "tags": [
-                  "CVE-2025-22228",
-                  "security"
-                ]
-              }
-            },
-            {
               "id": "CVE-2025-22233/pkg:maven/org.springframework/spring-context@6.1.8?type=jar",
               "name": "CVE-2025-22233 in pkg:maven/org.springframework/spring-context@6.1.8?type=jar",
               "shortDescription": {
@@ -5730,27 +5667,6 @@
                 "security-severity": "3.0",
                 "tags": [
                   "CVE-2025-22233",
-                  "security"
-                ]
-              }
-            },
-            {
-              "id": "CVE-2025-22235/pkg:maven/org.springframework.boot/spring-boot@3.2.6?type=jar",
-              "name": "CVE-2025-22235 in pkg:maven/org.springframework.boot/spring-boot@3.2.6?type=jar",
-              "shortDescription": {
-                "text": "CVE-2025-22235 in pkg:maven/org.springframework.boot/spring-boot@3.2.6?type=jar"
-              },
-              "fullDescription": {
-                "text": "Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed"
-              },
-              "help": {
-                "text": "- Description: Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n- Advisory:\n  - Vulnerability: CVE-2025-22235\n  - Component: pkg:maven/org.springframework.boot/spring-boot@3.2.6?type=jar",
-                "markdown": "- Description: Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n- Advisory:\n  - Vulnerability: `CVE-2025-22235`\n  - Component: `pkg:maven/org.springframework.boot/spring-boot@3.2.6?type=jar`"
-              },
-              "properties": {
-                "security-severity": "8.0",
-                "tags": [
-                  "CVE-2025-22235",
                   "security"
                 ]
               }
@@ -5924,27 +5840,6 @@
               }
             },
             {
-              "id": "CVE-2026-22732/pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar",
-              "name": "CVE-2026-22732 in pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar",
-              "shortDescription": {
-                "text": "CVE-2026-22732 in pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar"
-              },
-              "fullDescription": {
-                "text": "Spring Security HTTP Headers Are not Written Under Some Conditions"
-              },
-              "help": {
-                "text": "- Description: Spring Security HTTP Headers Are not Written Under Some Conditions\n- Advisory:\n  - Vulnerability: CVE-2026-22732\n  - Component: pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar\n- Mitigation: No recommendation found for CVE-2026-22732. Updating to version 6.2.7 is recommended nonetheless in order to address additional vulnerabilities identified for this package.",
-                "markdown": "- Description: Spring Security HTTP Headers Are not Written Under Some Conditions\n- Advisory:\n  - Vulnerability: `CVE-2026-22732`\n  - Component: `pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar`\n- Mitigation: No recommendation found for CVE-2026-22732. Updating to version 6.2.7 is recommended nonetheless in order to address additional vulnerabilities identified for this package."
-              },
-              "properties": {
-                "security-severity": "8.0",
-                "tags": [
-                  "CVE-2026-22732",
-                  "security"
-                ]
-              }
-            },
-            {
               "id": "CVE-2026-22735/pkg:maven/org.springframework/spring-webmvc@6.1.8?type=jar",
               "name": "CVE-2026-22735 in pkg:maven/org.springframework/spring-webmvc@6.1.8?type=jar",
               "shortDescription": {
@@ -6045,69 +5940,6 @@
                 "security-severity": "5.0",
                 "tags": [
                   "CVE-2026-3260",
-                  "security"
-                ]
-              }
-            },
-            {
-              "id": "CVE-2026-40477/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar",
-              "name": "CVE-2026-40477 in pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar",
-              "shortDescription": {
-                "text": "CVE-2026-40477 in pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar"
-              },
-              "fullDescription": {
-                "text": "Improper restriction of the scope of accessible objects in Thymeleaf expressions"
-              },
-              "help": {
-                "text": "- Description: Improper restriction of the scope of accessible objects in Thymeleaf expressions\n- Advisory:\n  - Vulnerability: CVE-2026-40477\n  - Component: pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar\n- Mitigation: Update to version 3.1.4.RELEASE to resolve CVE-2026-40477 or update to version 3.1.5.RELEASE to resolve additional vulnerabilities for this package.",
-                "markdown": "- Description: Improper restriction of the scope of accessible objects in Thymeleaf expressions\n- Advisory:\n  - Vulnerability: `CVE-2026-40477`\n  - Component: `pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar`\n- Mitigation: Update to version 3.1.4.RELEASE to resolve CVE-2026-40477 or update to version 3.1.5.RELEASE to resolve additional vulnerabilities for this package."
-              },
-              "properties": {
-                "security-severity": "8.0",
-                "tags": [
-                  "CVE-2026-40477",
-                  "security"
-                ]
-              }
-            },
-            {
-              "id": "CVE-2026-40478/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar",
-              "name": "CVE-2026-40478 in pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar",
-              "shortDescription": {
-                "text": "CVE-2026-40478 in pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar"
-              },
-              "fullDescription": {
-                "text": "Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf"
-              },
-              "help": {
-                "text": "- Description: Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf\n- Advisory:\n  - Vulnerability: CVE-2026-40478\n  - Component: pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar\n- Mitigation: Update to version 3.1.4.RELEASE to resolve CVE-2026-40478 or update to version 3.1.5.RELEASE to resolve additional vulnerabilities for this package.",
-                "markdown": "- Description: Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf\n- Advisory:\n  - Vulnerability: `CVE-2026-40478`\n  - Component: `pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar`\n- Mitigation: Update to version 3.1.4.RELEASE to resolve CVE-2026-40478 or update to version 3.1.5.RELEASE to resolve additional vulnerabilities for this package."
-              },
-              "properties": {
-                "security-severity": "8.0",
-                "tags": [
-                  "CVE-2026-40478",
-                  "security"
-                ]
-              }
-            },
-            {
-              "id": "CVE-2026-41901/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar",
-              "name": "CVE-2026-41901 in pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar",
-              "shortDescription": {
-                "text": "CVE-2026-41901 in pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar"
-              },
-              "fullDescription": {
-                "text": "Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns"
-              },
-              "help": {
-                "text": "- Description: Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns\n- Advisory:\n  - Vulnerability: CVE-2026-41901\n  - Component: pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar\n- Mitigation: Update to version 3.1.5.RELEASE.",
-                "markdown": "- Description: Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns\n- Advisory:\n  - Vulnerability: `CVE-2026-41901`\n  - Component: `pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar`\n- Mitigation: Update to version 3.1.5.RELEASE."
-              },
-              "properties": {
-                "security-severity": "8.0",
-                "tags": [
-                  "CVE-2026-41901",
                   "security"
                 ]
               }
@@ -9869,82 +9701,6 @@
           }
         },
         {
-          "ruleId": "CVE-2024-38821/pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "CVE-2024-38821 in pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar: Spring Security vulnerable to Authorization Bypass of Static Resources in WebFlux Applications. Update to version 6.2.7.",
-            "markdown": "- Description: Spring Security vulnerable to Authorization Bypass of Static Resources in WebFlux Applications\n- Advisory:\n  - Vulnerability: `CVE-2024-38821`\n  - Component: `pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar`\n- Mitigation: Update to version 6.2.7."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pom.xml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 1,
-                  "snippet": {
-                    "text": "Vulnerability CVE-2024-38821 in CVE-2024-38821/pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar"
-                  },
-                  "sourceLanguage": "oss"
-                }
-              },
-              "message": {
-                "text": "Vulnerability CVE-2024-38821 in CVE-2024-38821/pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar"
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "primaryLocationLineHash/v1": "a5303f23f3a82e3a108f8d5794e2cb4868b81152e007de702f60e54397cb9a06:1",
-            "glog-pfp-ruleFileLineCode/v1": "4e491f70de3306f3b34790c6f7d52fa228357ed29de8e5cfb294bd7ec568815f",
-            "glog-pfp-ruleFileCode/v1": "cae1af2fbb6907cf7de2a570e7736da1cb5bd973d27644e34fc266b108bfcf9b",
-            "primaryLocationLineHash": "a5303f23f3a82e3a108f8d5794e2cb4868b81152e007de702f60e54397cb9a06:1"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "cae1af2fbb6907cf7de2a570e7736da1cb5bd973d27644e34fc266b108bfcf9b"
-          }
-        },
-        {
-          "ruleId": "CVE-2024-38827/pkg:maven/org.springframework.security/spring-security-core@6.2.4?type=jar",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "CVE-2024-38827 in pkg:maven/org.springframework.security/spring-security-core@6.2.4?type=jar: Spring Framework has Authorization Bypass for Case Sensitive Comparisons. Update to version 6.2.8.",
-            "markdown": "- Description: Spring Framework has Authorization Bypass for Case Sensitive Comparisons\n- Advisory:\n  - Vulnerability: `CVE-2024-38827`\n  - Component: `pkg:maven/org.springframework.security/spring-security-core@6.2.4?type=jar`\n- Mitigation: Update to version 6.2.8."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pom.xml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 1,
-                  "snippet": {
-                    "text": "Vulnerability CVE-2024-38827 in CVE-2024-38827/pkg:maven/org.springframework.security/spring-security-core@6.2.4?type=jar"
-                  },
-                  "sourceLanguage": "oss"
-                }
-              },
-              "message": {
-                "text": "Vulnerability CVE-2024-38827 in CVE-2024-38827/pkg:maven/org.springframework.security/spring-security-core@6.2.4?type=jar"
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "primaryLocationLineHash/v1": "83c330c479bc2cc7e2f8b629ba21b78ae974f202d3182526f5cfd75f364cda67:1",
-            "glog-pfp-ruleFileLineCode/v1": "c4ed399488522c1cc979ca9331bb285feb0e202bc00396b8b52175bd9c3d7363",
-            "glog-pfp-ruleFileCode/v1": "37b77317635c2fd62d69c128f14c7c0868590e0207d0f8f72144601b78d4235a",
-            "primaryLocationLineHash": "83c330c479bc2cc7e2f8b629ba21b78ae974f202d3182526f5cfd75f364cda67:1"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "37b77317635c2fd62d69c128f14c7c0868590e0207d0f8f72144601b78d4235a"
-          }
-        },
-        {
           "ruleId": "CVE-2024-3884/pkg:maven/io.undertow/undertow-core@2.3.13.Final?type=jar",
           "kind": "fail",
           "level": "error",
@@ -10287,44 +10043,6 @@
           }
         },
         {
-          "ruleId": "CVE-2025-22228/pkg:maven/org.springframework.security/spring-security-crypto@6.2.4?type=jar",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "CVE-2025-22228 in pkg:maven/org.springframework.security/spring-security-crypto@6.2.4?type=jar: Spring Security Does Not Enforce Password Length. Update to version 6.2.10.",
-            "markdown": "- Description: Spring Security Does Not Enforce Password Length\n- Advisory:\n  - Vulnerability: `CVE-2025-22228`\n  - Component: `pkg:maven/org.springframework.security/spring-security-crypto@6.2.4?type=jar`\n- Mitigation: Update to version 6.2.10."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pom.xml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 1,
-                  "snippet": {
-                    "text": "Vulnerability CVE-2025-22228 in CVE-2025-22228/pkg:maven/org.springframework.security/spring-security-crypto@6.2.4?type=jar"
-                  },
-                  "sourceLanguage": "oss"
-                }
-              },
-              "message": {
-                "text": "Vulnerability CVE-2025-22228 in CVE-2025-22228/pkg:maven/org.springframework.security/spring-security-crypto@6.2.4?type=jar"
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "primaryLocationLineHash/v1": "c0cc0c288a82e78f33a05df997b5ccab672b0d4903524d234d23d3d4d4dea2bd:1",
-            "glog-pfp-ruleFileLineCode/v1": "9702b90f7365abc8af396e14a41f1aefed67ad9b4715f39a42b7a16216aadacc",
-            "glog-pfp-ruleFileCode/v1": "04dd983b0055eda1c0a967d1096a1f217578568b95714994787179af4722ae98",
-            "primaryLocationLineHash": "c0cc0c288a82e78f33a05df997b5ccab672b0d4903524d234d23d3d4d4dea2bd:1"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "04dd983b0055eda1c0a967d1096a1f217578568b95714994787179af4722ae98"
-          }
-        },
-        {
           "ruleId": "CVE-2025-22233/pkg:maven/org.springframework/spring-context@6.1.8?type=jar",
           "kind": "fail",
           "level": "note",
@@ -10360,44 +10078,6 @@
           },
           "fingerprints": {
             "glog-fp-ruleFileCode/v1": "c55b93840c1457084eaeb027930c50f6abc82296cbf14a2539f7642b60144e14"
-          }
-        },
-        {
-          "ruleId": "CVE-2025-22235/pkg:maven/org.springframework.boot/spring-boot@3.2.6?type=jar",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "CVE-2025-22235 in pkg:maven/org.springframework.boot/spring-boot@3.2.6?type=jar: Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed.",
-            "markdown": "- Description: Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n- Advisory:\n  - Vulnerability: `CVE-2025-22235`\n  - Component: `pkg:maven/org.springframework.boot/spring-boot@3.2.6?type=jar`"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pom.xml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 1,
-                  "snippet": {
-                    "text": "Vulnerability CVE-2025-22235 in CVE-2025-22235/pkg:maven/org.springframework.boot/spring-boot@3.2.6?type=jar"
-                  },
-                  "sourceLanguage": "oss"
-                }
-              },
-              "message": {
-                "text": "Vulnerability CVE-2025-22235 in CVE-2025-22235/pkg:maven/org.springframework.boot/spring-boot@3.2.6?type=jar"
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "primaryLocationLineHash/v1": "9c6d4fb545ad77a8ea720a5893a753466ff773add874b540819ab030199eaff9:1",
-            "glog-pfp-ruleFileLineCode/v1": "1d9afd89e6263f1aecdd0b3d695caffd3794badee71c1faf9525d94a2ffb3164",
-            "glog-pfp-ruleFileCode/v1": "82d95e8bea6b121665c27b86ac7774675e4c79d62ddb5c3e3046283b6da7ed19",
-            "primaryLocationLineHash": "9c6d4fb545ad77a8ea720a5893a753466ff773add874b540819ab030199eaff9:1"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "82d95e8bea6b121665c27b86ac7774675e4c79d62ddb5c3e3046283b6da7ed19"
           }
         },
         {
@@ -10705,44 +10385,6 @@
           }
         },
         {
-          "ruleId": "CVE-2026-22732/pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "CVE-2026-22732 in pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar: Spring Security HTTP Headers Are not Written Under Some Conditions. No recommendation found for CVE-2026-22732. Updating to version 6.2.7 is recommended nonetheless in order to address additional vulnerabilities identified for this package.",
-            "markdown": "- Description: Spring Security HTTP Headers Are not Written Under Some Conditions\n- Advisory:\n  - Vulnerability: `CVE-2026-22732`\n  - Component: `pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar`\n- Mitigation: No recommendation found for CVE-2026-22732. Updating to version 6.2.7 is recommended nonetheless in order to address additional vulnerabilities identified for this package."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pom.xml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 1,
-                  "snippet": {
-                    "text": "Vulnerability CVE-2026-22732 in CVE-2026-22732/pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar"
-                  },
-                  "sourceLanguage": "oss"
-                }
-              },
-              "message": {
-                "text": "Vulnerability CVE-2026-22732 in CVE-2026-22732/pkg:maven/org.springframework.security/spring-security-web@6.2.4?type=jar"
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "primaryLocationLineHash/v1": "ae7912930ac1afa1a6ed73cfeeecdc7b14d3827a4cf7af89b351f3de9b441525:1",
-            "glog-pfp-ruleFileLineCode/v1": "c873f0ad44ff0bafa50293dff5ae3079bd89d1bd64e8e61e68d094e7570bf05f",
-            "glog-pfp-ruleFileCode/v1": "e92f611db03e059fabb08337f487bd25935f3da2576dbe59e27fdd327d23a203",
-            "primaryLocationLineHash": "ae7912930ac1afa1a6ed73cfeeecdc7b14d3827a4cf7af89b351f3de9b441525:1"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "e92f611db03e059fabb08337f487bd25935f3da2576dbe59e27fdd327d23a203"
-          }
-        },
-        {
           "ruleId": "CVE-2026-22735/pkg:maven/org.springframework/spring-webmvc@6.1.8?type=jar",
           "kind": "fail",
           "level": "note",
@@ -10930,120 +10572,6 @@
           },
           "fingerprints": {
             "glog-fp-ruleFileCode/v1": "9a81c1c5006525716c1b522267f236f7859d0decad851c00871706f2271bd2a3"
-          }
-        },
-        {
-          "ruleId": "CVE-2026-40477/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "CVE-2026-40477 in pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar: Improper restriction of the scope of accessible objects in Thymeleaf expressions. Update to version 3.1.4.RELEASE to resolve CVE-2026-40477 or update to version 3.1.5.RELEASE to resolve additional vulnerabilities for this package.",
-            "markdown": "- Description: Improper restriction of the scope of accessible objects in Thymeleaf expressions\n- Advisory:\n  - Vulnerability: `CVE-2026-40477`\n  - Component: `pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar`\n- Mitigation: Update to version 3.1.4.RELEASE to resolve CVE-2026-40477 or update to version 3.1.5.RELEASE to resolve additional vulnerabilities for this package."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pom.xml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 1,
-                  "snippet": {
-                    "text": "Vulnerability CVE-2026-40477 in CVE-2026-40477/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar"
-                  },
-                  "sourceLanguage": "oss"
-                }
-              },
-              "message": {
-                "text": "Vulnerability CVE-2026-40477 in CVE-2026-40477/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar"
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "primaryLocationLineHash/v1": "677664e3f54eca9b7234c33d46e8c4a025863a7636d373a0bc55669450184ce9:1",
-            "glog-pfp-ruleFileLineCode/v1": "67c5bf9113111f952ee0b84a7bcc452330c99c85b4dc697be346bba57a288124",
-            "glog-pfp-ruleFileCode/v1": "471299bd97c6faa296dad4ab2be84a821f9ca4c9d0af8c551811c7619ff111c6",
-            "primaryLocationLineHash": "677664e3f54eca9b7234c33d46e8c4a025863a7636d373a0bc55669450184ce9:1"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "471299bd97c6faa296dad4ab2be84a821f9ca4c9d0af8c551811c7619ff111c6"
-          }
-        },
-        {
-          "ruleId": "CVE-2026-40478/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "CVE-2026-40478 in pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar: Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf. Update to version 3.1.4.RELEASE to resolve CVE-2026-40478 or update to version 3.1.5.RELEASE to resolve additional vulnerabilities for this package.",
-            "markdown": "- Description: Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf\n- Advisory:\n  - Vulnerability: `CVE-2026-40478`\n  - Component: `pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar`\n- Mitigation: Update to version 3.1.4.RELEASE to resolve CVE-2026-40478 or update to version 3.1.5.RELEASE to resolve additional vulnerabilities for this package."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pom.xml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 1,
-                  "snippet": {
-                    "text": "Vulnerability CVE-2026-40478 in CVE-2026-40478/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar"
-                  },
-                  "sourceLanguage": "oss"
-                }
-              },
-              "message": {
-                "text": "Vulnerability CVE-2026-40478 in CVE-2026-40478/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar"
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "primaryLocationLineHash/v1": "b0295e88e0032267a46a4e5e0e289873ac601e16c385bca89abf86d51bd6427b:1",
-            "glog-pfp-ruleFileLineCode/v1": "654d3c5e9eee4085944e4f78c2d7f30186bef050ec836fcd15424e98e3416260",
-            "glog-pfp-ruleFileCode/v1": "c1d65e9688fad86acc7b80688231050496eb28f75259ae37c4eb4e9f515ea92f",
-            "primaryLocationLineHash": "b0295e88e0032267a46a4e5e0e289873ac601e16c385bca89abf86d51bd6427b:1"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "c1d65e9688fad86acc7b80688231050496eb28f75259ae37c4eb4e9f515ea92f"
-          }
-        },
-        {
-          "ruleId": "CVE-2026-41901/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "CVE-2026-41901 in pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar: Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns. Update to version 3.1.5.RELEASE.",
-            "markdown": "- Description: Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns\n- Advisory:\n  - Vulnerability: `CVE-2026-41901`\n  - Component: `pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar`\n- Mitigation: Update to version 3.1.5.RELEASE."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "pom.xml",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 1,
-                  "snippet": {
-                    "text": "Vulnerability CVE-2026-41901 in CVE-2026-41901/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar"
-                  },
-                  "sourceLanguage": "oss"
-                }
-              },
-              "message": {
-                "text": "Vulnerability CVE-2026-41901 in CVE-2026-41901/pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.2.RELEASE?type=jar"
-              }
-            }
-          ],
-          "partialFingerprints": {
-            "primaryLocationLineHash/v1": "a8882859d77a72a957fc334af20785e8409f9ca73ad8bf61efdc9a4e27482ff5:1",
-            "glog-pfp-ruleFileLineCode/v1": "f63ad44d8797b251cdaa9dfb19d156c696ea3cf915d4d4125c7dc90f365d6b60",
-            "glog-pfp-ruleFileCode/v1": "c3482ac3e67bf5f75a024b74a4b7c20d6c0c2cc07602900f1540c9e7a60f3e9f",
-            "primaryLocationLineHash": "a8882859d77a72a957fc334af20785e8409f9ca73ad8bf61efdc9a4e27482ff5:1"
-          },
-          "fingerprints": {
-            "glog-fp-ruleFileCode/v1": "c3482ac3e67bf5f75a024b74a4b7c20d6c0c2cc07602900f1540c9e7a60f3e9f"
           }
         },
         {

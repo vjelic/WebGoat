@@ -31,8 +31,8 @@ jobs:
         uses: ./.github/glog-action
         with:
             client: 'test'
-            upload: 'false'
-            lang: 'java,javascript,oss,secrets'
+            upload: 'true'
+            lang: 'java'
             github-token: ${{ secrets.PAT_TOKEN }}
             glog-token: ${{ secrets.GLOG_TOKEN }}
             env: 'dev'
